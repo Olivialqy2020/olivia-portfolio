@@ -14,6 +14,7 @@ import {
   X,
   FileText,
   Download,
+  Music,
 } from "lucide-react";
 
 export default function App() {
@@ -65,8 +66,8 @@ export default function App() {
       about1:
         "I'm a classically trained auditor — highly structured when the work calls for it, but curious and people-oriented in how I learn and collaborate. With 5+ years navigating complex financial instruments (ASC 815/820), I thrive on untangling messy data into clear narratives.",
       about2:
-        "When I'm not reperforming NAV calculations or validating valuations, I'm learning Python and data tools step by step, watching cooking videos at midnight, or hunting for the perfect micro-batch espresso in Boston.",
-      aboutTags: ["I/ENFP-T ✦", "Bilingual (ZH/EN)", "Data Modeling 📊", "Cooking 🍳"],
+        "Outside work, I'm learning Python and data tools step by step, watching cooking videos at midnight, or hunting for the perfect micro-batch espresso in Boston. I'm also a classical music enthusiast; I played in school orchestras through high school and college, and I have a soft spot for Baroque, classical repertoire, and many other forms of music.",
+      aboutTags: ["I/ENFP-T ✦", "Bilingual (ZH/EN)", "Data Modeling 📊", "Classical Music ♫", "Cooking 🍳"],
       currentTitle: "Currently into",
       currentItems: [
         "Passed the CPA exams and currently waiting for the State Board update.",
@@ -74,6 +75,7 @@ export default function App() {
         "Deep diving into Corporate FP&A best practices and strategic valuation.",
         "Obsessing over new recipes & cooking technique videos.",
         "Planning to explore hiking routes starting from the New England area.",
+        "Listening broadly to the Boston Symphony Orchestra and concerts from ensembles around the area.",
       ],
       education: "Education",
       educationNote: "Academic foundation, kept light so the work experience stays center stage.",
@@ -114,39 +116,40 @@ export default function App() {
       nav: ["你好", "关于", "经历", "联系"],
       sayHello: "联系我",
       heroEyebrow: "你好，我是 OLIVIA",
-      heroTitle1: "财务框架搭建者。",
-      heroTitle2: "数据探索者。",
+      heroTitle1: "财务框架搭建者",
+      heroTitle2: "数据探索者",
       heroSubtitle: "→ 在审计的严谨性和数据分析的前瞻性之间寻找平衡",
       heroBody:
-        "我擅长把复杂的财务信息梳理成能支持业务决策的分析框架。现在希望把 5 年多的复杂审计与估值经验延展到企业会计、FP&A 和财务分析方向，同时继续补足数据与 AI 工具的实践能力。",
+        "我擅长把复杂的财务信息梳理成能支持业务决策的分析框架。现在希望把 5 年多的复杂审计与估值经验延展到企业会计、企业财务规划与分析和财务分析方向，同时继续补足数据与 AI 工具的实践能力。",
       heroTags: ["企业财务", "CPA 考试已通过", "I/ENFP-T", "数据爱好者", "咖啡爱好者 ☕", "Python 学习中 ✦"],
-      portraitBadge: "Boston 的光 ✦",
+      portraitBadge: "",
       portraitCaption: "财务 + 数据探索者",
-      portraitCity: "Boston",
+      portraitCity: "波士顿",
       cta: "查看我的经历 →",
       resumeCta: "预览简历",
       resumeTitle: "简历速览",
       resumeSubtitle: "这里放的是 2026 版 PDF 简历，可以直接在线预览，也可以下载保存。",
       resumePreview: "打开 PDF",
       resumeDownload: "下载 PDF",
-      resumeBullets: ["5 年以上审计、估值和复杂金融工具相关经验", "已通过 CPA 考试，重点关注企业会计、FP&A 和财务分析方向", "目前在 Boston，欢迎远程或 hybrid 机会交流"],
+      resumeBullets: ["5 年以上审计、估值和复杂金融工具相关经验", "已通过 CPA 考试，重点关注企业会计、企业财务规划与分析和财务分析方向", "目前在波士顿，欢迎远程或混合办公机会交流"],
       aboutTitle: "关于我",
       about1:
         "我接受过扎实的审计训练，做事注重结构和细节；同时也很享受和人协作、一起把问题想清楚的过程。过去 5 年多，我主要接触复杂金融工具（ASC 815/820）、估值和投资组合相关审计，喜欢把杂乱的信息整理成清楚、有判断依据的财务叙事。",
       about2:
-        "工作之外，我在一步步学习 Python 和数据工具；也会半夜看做饭视频，或者在 Boston 寻找好喝的 espresso。",
-      aboutTags: ["I/ENFP-T ✦", "中英双语", "数据建模 📊", "做饭 🍳"],
+        "工作之外，我在一步步学习 Python 和数据工具；也会半夜看做饭视频，或者在波士顿寻找好喝的 espresso。我也是古典音乐发烧友，高中和大学都在学校交响乐团，尤其喜欢巴洛克音乐、古典音乐，也愿意探索各种音乐形式。",
+      aboutTags: ["I/ENFP-T ✦", "中英双语", "数据建模 📊", "古典音乐 ♫", "做饭 🍳"],
       currentTitle: "最近在关注",
       currentItems: [
         "已通过 CPA 考试，目前在等待 State Board 的更新。",
         "正在学习 Google Coursera 的 “Foundations: Data, Data, Everywhere” 和 Anthropic Academy 的 Claude 101，想用更系统的方式补足数据与 AI 工具的实操基础。",
-        "持续了解 Corporate FP&A 的工作方式、预算预测逻辑和战略估值场景。",
+        "持续了解企业财务规划与分析的工作方式、预算预测逻辑和战略估值场景。",
         "研究新的食谱和烹饪技巧视频。",
-        "计划从 New England 开始慢慢探索适合周末的徒步路线。",
+        "计划从北美新英格兰地区开始慢慢探索适合周末的徒步路线。",
+        "目前在广泛听波士顿交响乐团，以及周边各种乐团的演出。",
       ],
       education: "教育背景",
       educationNote: "作为基础信息简要呈现，页面重点仍放在工作经历上。",
-      resumeSectionNote: "给招聘方和 hiring manager 快速浏览用。",
+      resumeSectionNote: "给招聘方和招聘经理快速浏览用。",
       workEyebrow: "工作经历",
       workTitle: "职业经历",
       workSubtitle: "审计 • 估值 • 金融工具 — 悬停查看详情",
@@ -171,12 +174,12 @@ export default function App() {
       emailLabel: "邮箱",
       phoneLabel: "电话",
       openTo: "感兴趣方向",
-      openItems: ["企业会计相关岗位", "基金会计 / Treasury 相关岗位", "FP&A 会计分析相关岗位"],
+      openItems: ["企业会计相关岗位", "基金会计 / 财资相关岗位", "企业财务规划与分析相关岗位"],
       availability: "正在开放新机会",
       availabilityBody:
-        "正在积极关注企业会计、基金会计、Treasury 和 FP&A 相关机会。地点灵活，Boston 地区优先。",
-      bostonTitle: "目前在 Boston",
-      bostonBody: "现在主要在 Boston 地区，也很愿意了解 hybrid 或远程机会。欢迎聊财务、数据，也欢迎轻松约一杯咖啡。",
+        "正在积极关注企业会计、基金会计、财资和企业财务规划与分析相关机会。地点灵活，波士顿地区优先。",
+      bostonTitle: "目前在波士顿",
+      bostonBody: "现在主要在波士顿地区，也很愿意了解混合办公或远程机会。欢迎聊财务、数据，也欢迎轻松约一杯咖啡。",
       footer: "Designed with warmth ✦ All rights reserved.",
     },
   }[language];
@@ -184,13 +187,15 @@ export default function App() {
   const experienceData = {
     "ey-t3": {
       company: "Ernst & Young",
-      team: "T3 - Financial Instruments Team",
+      companyZh: "安永",
+      team: "Transactional and Technical Topics “T3” - Financial Instruments Team",
       role: "Audit Senior",
       period: "Oct 2024 - Mar 2026",
-      teamZh: "T3 - 金融工具团队",
-      roleZh: "审计高级",
+      teamZh: "交易与技术专题团队 - 金融工具组",
+      roleZh: "高级审计师",
       periodZh: "2024年10月 - 2026年3月",
       location: "Boston, MA",
+      locationZh: "波士顿，MA",
       highlights: [
         "Specialized in auditing complex financial instruments, pension portfolios, and derivatives under ASC 815 (Derivatives & Hedging).",
         "Evaluated internal risk management frameworks and internal controls, identifying design gaps and ensuring regulatory compliance.",
@@ -198,7 +203,7 @@ export default function App() {
         "Streamlined audit tracking and budget metrics, enhancing execution transparency and resource efficiency.",
       ],
       highlightsZh: [
-        "专注于复杂金融工具、养老金投资组合和衍生品相关审计，覆盖 ASC 815（Derivatives & Hedging）等准则要求。",
+        "专注于复杂金融工具、养老金投资组合和衍生品相关审计，覆盖 ASC 815（衍生工具与套期保值）等准则要求。",
         "评估客户的风险管理框架和内部控制，识别控制设计缺口，并关注合规要求是否得到落实。",
         "为商业银行、保险和高成长科技客户提供审计支持与分析洞察。",
         "优化审计进度和预算跟踪方式，提高执行过程的透明度和资源使用效率。",
@@ -206,13 +211,15 @@ export default function App() {
     },
     "ey-wam": {
       company: "Ernst & Young",
+      companyZh: "安永",
       team: "FSO - Wealth & Asset Management",
       role: "Audit Senior",
       period: "May 2022 - Oct 2024",
       teamZh: "FSO - 财富与资产管理",
-      roleZh: "审计高级",
+      roleZh: "高级审计师",
       periodZh: "2022年5月 - 2024年10月",
       location: "Boston, MA",
+      locationZh: "波士顿，MA",
       highlights: [
         "Supervised and executed complete audit workflows for high-capital mutual funds and asset management portfolios.",
         "Reperformed and analyzed NAV calculations, with rigorous reconciliations of cash, positions, and complex market values.",
@@ -228,6 +235,7 @@ export default function App() {
     },
     "malone-bailey": {
       company: "Malone Bailey, LLP",
+      companyZh: "美博咨询",
       team: "Audit Practice",
       role: "Audit Associate",
       period: "July 2021 - Apr 2022",
@@ -235,6 +243,7 @@ export default function App() {
       roleZh: "审计助理",
       periodZh: "2021年7月 - 2022年4月",
       location: "Houston, TX",
+      locationZh: "休斯顿，TX",
       highlights: [
         "Conducted substantive audit testing and interim reviews of balance sheets, revenue cycles, and transactional integrity.",
         "Executed core field assignments aligned strictly with professional auditing standards, milestones, and firm methodologies.",
@@ -248,13 +257,15 @@ export default function App() {
     },
     "jackson-hewitt": {
       company: "Jackson Hewitt Accounting",
+      companyZh: "Jackson Hewitt Accounting",
       team: "Liu Inc.",
       role: "Senior Accountant",
       period: "Oct 2018 - June 2021",
       teamZh: "Liu Inc.",
-      roleZh: "高级会计",
+      roleZh: "高级会计师",
       periodZh: "2018年10月 - 2021年6月",
       location: "Plymouth, MN",
+      locationZh: "普利茅斯，MN",
       highlights: [
         "Managed daily general ledger accounting, periodic closings, complex bank reconciliations, and GAAP statement preparation.",
         "Conducted deep-dive financial analyses and researched specific tax treatments for early-stage startups and investment entities.",
@@ -268,11 +279,13 @@ export default function App() {
     },
   };
 
-  const currentIcons = [BookOpen, Code, Database, Heart, Globe2];
+  const currentIcons = [BookOpen, Code, Database, Heart, Globe2, Music];
   const activeExperience = experienceData[activeExp as keyof typeof experienceData];
+  const expCompany = isZh ? activeExperience.companyZh : activeExperience.company;
   const expRole = isZh ? activeExperience.roleZh : activeExperience.role;
   const expTeam = isZh ? activeExperience.teamZh : activeExperience.team;
   const expHighlights = isZh ? activeExperience.highlightsZh : activeExperience.highlights;
+  const expLocation = isZh ? activeExperience.locationZh : activeExperience.location;
   const resumeUrl = `${import.meta.env.BASE_URL}qinyan-luo-resume-2026-06-30.pdf`;
 
   return (
@@ -341,12 +354,12 @@ export default function App() {
       <main className="max-w-6xl mx-auto px-6 md:px-12 py-12 md:py-20 font-sans-round">
         <div id="hello" className="mb-24 flex flex-col lg:flex-row justify-between items-start lg:items-center gap-12">
           <div className="max-w-4xl lg:max-w-3xl">
-            <span className="text-[#9C5A6A] text-[11px] font-bold uppercase tracking-[0.2em] mb-6 flex items-center gap-2">
+            <span className={`text-[#9C5A6A] font-bold uppercase mb-6 flex items-center gap-2 ${isZh ? "text-[14px] md:text-[15px] tracking-[0.16em]" : "text-[11px] tracking-[0.2em]"}`}>
               <span className="text-lg">↳</span> {text.heroEyebrow}
             </span>
-            <h1 className="font-serif-elegant text-6xl md:text-8xl font-normal leading-[1.1] text-[#332D2D] mb-6 tracking-tight">
-              {text.heroTitle1}<br />
-              <span className="text-[#9C5A6A] italic">{text.heroTitle2}</span>
+            <h1 className={`${isZh ? "font-sans-round text-5xl md:text-6xl lg:text-7xl font-medium leading-[1.18] tracking-normal" : "font-serif-elegant text-6xl md:text-8xl font-normal leading-[1.1] tracking-tight"} text-[#332D2D] mb-6`}>
+              <span className={isZh ? "whitespace-nowrap" : ""}>{text.heroTitle1}</span><br />
+              <span className={`${isZh ? "font-normal" : "italic"} text-[#9C5A6A]`}>{text.heroTitle2}</span>
             </h1>
             <p className="font-serif-elegant italic text-xl md:text-2xl text-[#7D7371] mb-8">{text.heroSubtitle}</p>
             <p className="text-[15px] text-[#5A504E] leading-relaxed max-w-2xl mb-10">{text.heroBody}</p>
@@ -369,7 +382,7 @@ export default function App() {
                   className="h-full w-full object-cover object-[52%_36%] saturate-[0.92] contrast-[0.96]"
                 />
               </div>
-              <div className="absolute -left-3 top-7 rounded-full border border-[#EAE5DE] bg-[#F9F6F0] px-3 py-1.5 text-[11px] font-medium text-[#9C5A6A] shadow-sm">{text.portraitBadge}</div>
+              {text.portraitBadge && <div className="absolute -left-3 top-7 rounded-full border border-[#EAE5DE] bg-[#F9F6F0] px-3 py-1.5 text-[11px] font-medium text-[#9C5A6A] shadow-sm">{text.portraitBadge}</div>}
               <div className="mt-3 flex items-center justify-between px-1">
                 <span className="font-serif-elegant italic text-[15px] text-[#332D2D]">{text.portraitCaption}</span>
                 <span className="text-[11px] font-semibold uppercase tracking-wider text-[#A09596]">{text.portraitCity}</span>
@@ -418,7 +431,7 @@ export default function App() {
                 return (
                   <div key={key} onMouseEnter={() => setActiveExp(key)} onClick={() => setActiveExp(key)} className={`cursor-pointer text-left p-4 rounded-2xl transition-all duration-300 shrink-0 lg:shrink w-64 lg:w-full border ${isSelected ? "bg-[#FDFBFA] border-[#EAE5DE] shadow-sm transform lg:translate-x-1" : "bg-transparent border-transparent hover:bg-[#F9F6F0]"}`}>
                     <span className={`block text-[11px] uppercase tracking-wider font-semibold ${isSelected ? "text-[#9C5A6A]" : "text-[#A09596]"}`}>{isZh ? data.periodZh : data.period}</span>
-                    <span className={`block text-[15px] font-semibold mt-1.5 ${isSelected ? "text-[#332D2D]" : "text-[#7D7371]"}`}>{data.company}</span>
+                    <span className={`block text-[15px] font-semibold mt-1.5 ${isSelected ? "text-[#332D2D]" : "text-[#7D7371]"}`}>{isZh ? data.companyZh : data.company}</span>
                     <span className="block text-[13px] text-[#A09596] mt-0.5">{isZh ? data.roleZh : data.role}</span>
                   </div>
                 );
@@ -428,9 +441,9 @@ export default function App() {
               <div className="flex flex-col sm:flex-row sm:items-start justify-between border-b border-[#F5F2EC] pb-5 mb-6">
                 <div>
                   <h4 className="text-xl font-serif-elegant font-medium text-[#332D2D]">{expRole}</h4>
-                  <p className="text-[14px] font-medium text-[#9C5A6A] mt-1">{activeExperience.company} <span className="text-[#A09596] font-normal">• {expTeam}</span></p>
+                  <p className="text-[14px] font-medium text-[#9C5A6A] mt-1">{expCompany} <span className="text-[#A09596] font-normal">• {expTeam}</span></p>
                 </div>
-                <div className="mt-3 sm:mt-0 flex items-center gap-1.5 text-[12px] text-[#A09596] bg-white px-3 py-1.5 rounded-full border border-[#EAE5DE]"><MapPin className="w-3.5 h-3.5 text-[#9C5A6A]" /> {activeExperience.location}</div>
+                <div className="mt-3 sm:mt-0 flex items-center gap-1.5 text-[12px] text-[#A09596] bg-white px-3 py-1.5 rounded-full border border-[#EAE5DE]"><MapPin className="w-3.5 h-3.5 text-[#9C5A6A]" /> {expLocation}</div>
               </div>
               <ul className="space-y-4">
                 {expHighlights.map((bullet, idx) => (
@@ -452,14 +465,14 @@ export default function App() {
                 <p className="text-[12px] text-[#A09596] leading-relaxed mb-5">{text.educationNote}</p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                   <div className="rounded-[22px] border border-[#F5F2EC] bg-[#FDFBFA] p-5">
-                    <h4 className="text-[14px] font-semibold text-[#332D2D]">University of Minnesota - Carlson School of Management</h4>
-                    <p className="text-[13px] text-[#7D7371] mt-1">Master of Accountancy</p>
-                    <span className="inline-flex mt-2 px-3 py-1 rounded-full bg-[#F9F6F0] text-[#7D7371] text-[11px] font-medium border border-[#EAE5DE]">May 2018 · Minneapolis</span>
+                    <h4 className="text-[14px] font-semibold text-[#332D2D]">{isZh ? "明尼苏达大学卡尔森商学院" : "University of Minnesota - Carlson School of Management"}</h4>
+                    <p className="text-[13px] text-[#7D7371] mt-1">{isZh ? "会计学硕士" : "Master of Accountancy"}</p>
+                    <span className="inline-flex mt-2 px-3 py-1 rounded-full bg-[#F9F6F0] text-[#7D7371] text-[11px] font-medium border border-[#EAE5DE]">{isZh ? "2018年5月 · 明尼阿波利斯" : "May 2018 · Minneapolis"}</span>
                   </div>
                   <div className="rounded-[22px] border border-[#F5F2EC] bg-[#FDFBFA] p-5">
-                    <h4 className="text-[14px] font-semibold text-[#332D2D]">University of Minnesota</h4>
-                    <p className="text-[13px] text-[#7D7371] mt-1">B.S. Business in Accounting & Finance</p>
-                    <span className="inline-flex mt-2 px-3 py-1 rounded-full bg-[#F9F6F0] text-[#7D7371] text-[11px] font-medium border border-[#EAE5DE]">Dec 2016 · Minneapolis</span>
+                    <h4 className="text-[14px] font-semibold text-[#332D2D]">{isZh ? "明尼苏达大学" : "University of Minnesota"}</h4>
+                    <p className="text-[13px] text-[#7D7371] mt-1">{isZh ? "会计学和金融学学士学位" : "B.S. Business in Accounting & Finance"}</p>
+                    <span className="inline-flex mt-2 px-3 py-1 rounded-full bg-[#F9F6F0] text-[#7D7371] text-[11px] font-medium border border-[#EAE5DE]">{isZh ? "2016年12月 · 明尼阿波利斯" : "Dec 2016 · Minneapolis"}</span>
                   </div>
                 </div>
               </div>
