@@ -12,6 +12,8 @@ import {
   Globe2,
   Menu,
   X,
+  FileText,
+  Download,
 } from "lucide-react";
 
 export default function App() {
@@ -49,7 +51,16 @@ export default function App() {
       heroBody:
         "I build financial frameworks that drive strategic business decisions. Currently transitioning 5+ years of complex audit and valuation experience into corporate finance, while building practical data and AI literacy through focused coursework.",
       heroTags: ["Corporate Finance", "CPA Exams Passed", "I/ENFP-T", "Data Enthusiast", "Espresso Lover ☕", "Python Learner ✦"],
+      portraitBadge: "Boston light ✦",
+      portraitCaption: "finance + data explorer",
+      portraitCity: "Boston",
       cta: "See what I've done →",
+      resumeCta: "Preview resume",
+      resumeTitle: "Resume Snapshot",
+      resumeSubtitle: "A polished PDF version of my 2026 resume is available here for quick review or download.",
+      resumePreview: "Open PDF",
+      resumeDownload: "Download PDF",
+      resumeBullets: ["5+ years across audit, valuation, and financial instruments", "CPA exams passed, with corporate accounting and FP&A interests", "Boston-based, open to hybrid and remote conversations"],
       aboutTitle: "A bit about me",
       about1:
         "I'm a classically trained auditor — highly structured when the work calls for it, but curious and people-oriented in how I learn and collaborate. With 5+ years navigating complex financial instruments (ASC 815/820), I thrive on untangling messy data into clear narratives.",
@@ -65,66 +76,107 @@ export default function App() {
         "Planning to explore hiking routes starting from the New England area.",
       ],
       education: "Education",
+      educationNote: "Academic foundation, kept light so the work experience stays center stage.",
+      resumeSectionNote: "Quick preview for recruiters and hiring managers.",
       workEyebrow: "WHERE I'VE WORKED",
       workTitle: "Professional Journey",
       workSubtitle: "audit • valuation • financial instruments — hover to explore",
       projectsTitle: "The Innovation Lab",
       projectsBadge: "↑ currently building this!",
+      selfTaught: "Self-Taught",
+      upskilling: "Upskilling",
+      inProgress: "In Progress",
+      projectOneTitle: "Financial Automation with Python",
+      projectOneBody: "Building practical scripts to clean financial datasets, organize recurring reporting tasks, and reduce manual Excel overhead step by step.",
+      projectOneTags: ["Python", "Pandas"],
+      projectTwoTitle: "Vibe Coding & GitHub Exploring",
+      projectTwoBody: "Recently obsessed with vibe coding and browsing GitHub for interesting topics, playful tools, and small ideas worth learning from.",
+      projectTwoTags: ["Vibe Coding", "GitHub Discovery"],
       contactTitle: "Say Hello",
       contactSubtitle: "I love meeting new people",
       contactLead1: "Building something",
       contactLead2: "meaningful with data?",
       contactBody:
         "Whether you're hiring for a corporate finance role, need someone to bridge traditional accounting with modern analytics, or just want to chat about espresso beans — I'd love to hear from you.",
+      dropLine: "↓ drop me a line",
+      emailLabel: "Email",
+      phoneLabel: "Phone",
       openTo: "Open to",
       openItems: ["Corporate Accounting Roles", "Fund Accounting/Treasury Positions", "FP&A Accounting Positions"],
       availability: "Open to opportunities",
       availabilityBody:
         "Actively exploring corporate finance roles across analytics, strategy, and treasury. Location flexible (Boston area preferred). Let's chat!",
+      bostonTitle: "Boston-based",
+      bostonBody: "Currently based in the Boston area, with a soft spot for hybrid roles, finance conversations, and thoughtful coffee chats.",
       footer: "Designed with warmth ✦ All rights reserved.",
     },
     zh: {
       nav: ["你好", "关于", "经历", "联系"],
       sayHello: "联系我",
       heroEyebrow: "你好，我是 OLIVIA",
-      heroTitle1: "Financial Builder.",
-      heroTitle2: "Data Explorer.",
-      heroSubtitle: "→ 在审计严谨性与分析前瞻性之间寻找平衡",
+      heroTitle1: "财务框架搭建者。",
+      heroTitle2: "数据探索者。",
+      heroSubtitle: "→ 在审计的严谨性和数据分析的前瞻性之间寻找平衡",
       heroBody:
-        "我擅长把复杂的财务信息整理成可支持业务决策的框架。现在希望将 5 年以上复杂审计与估值经验延展到 corporate finance，同时通过系统课程逐步建立数据与 AI 工具的实践能力。",
-      heroTags: ["Corporate Finance", "CPA 考试已通过", "I/ENFP-T", "Data Enthusiast", "Espresso Lover ☕", "Python Learner ✦"],
+        "我擅长把复杂的财务信息梳理成能支持业务决策的分析框架。现在希望把 5 年多的复杂审计与估值经验延展到企业会计、FP&A 和财务分析方向，同时继续补足数据与 AI 工具的实践能力。",
+      heroTags: ["企业财务", "CPA 考试已通过", "I/ENFP-T", "数据爱好者", "咖啡爱好者 ☕", "Python 学习中 ✦"],
+      portraitBadge: "Boston 的光 ✦",
+      portraitCaption: "财务 + 数据探索者",
+      portraitCity: "Boston",
       cta: "查看我的经历 →",
+      resumeCta: "预览简历",
+      resumeTitle: "简历速览",
+      resumeSubtitle: "这里放的是 2026 版 PDF 简历，可以直接在线预览，也可以下载保存。",
+      resumePreview: "打开 PDF",
+      resumeDownload: "下载 PDF",
+      resumeBullets: ["5 年以上审计、估值和复杂金融工具相关经验", "已通过 CPA 考试，重点关注企业会计、FP&A 和财务分析方向", "目前在 Boston，欢迎远程或 hybrid 机会交流"],
       aboutTitle: "关于我",
       about1:
-        "我有扎实的审计训练：在需要严谨结构的时候非常注重细节，同时也保持好奇、开放和愿意协作的学习方式。过去 5 年多，我主要接触复杂金融工具（ASC 815/820），喜欢把凌乱的数据整理成清晰的叙事。",
+        "我接受过扎实的审计训练，做事注重结构和细节；同时也很享受和人协作、一起把问题想清楚的过程。过去 5 年多，我主要接触复杂金融工具（ASC 815/820）、估值和投资组合相关审计，喜欢把杂乱的信息整理成清楚、有判断依据的财务叙事。",
       about2:
-        "工作之外，我正在一步步学习 Python 和数据工具，也会在半夜看做饭视频，或者在 Boston 寻找好喝的 espresso。",
-      aboutTags: ["I/ENFP-T ✦", "中英双语", "Data Modeling 📊", "Cooking 🍳"],
+        "工作之外，我在一步步学习 Python 和数据工具；也会半夜看做饭视频，或者在 Boston 寻找好喝的 espresso。",
+      aboutTags: ["I/ENFP-T ✦", "中英双语", "数据建模 📊", "做饭 🍳"],
       currentTitle: "最近在关注",
       currentItems: [
         "已通过 CPA 考试，目前在等待 State Board 的更新。",
-        "正在学习 Google Coursera 的 “Foundations: Data, Data, Everywhere” 和 Anthropic Academy 的 Claude 101，目标是循序渐进地建立数据与 AI 工具的基础实践能力。",
-        "继续了解 Corporate FP&A 的最佳实践和 strategic valuation。",
+        "正在学习 Google Coursera 的 “Foundations: Data, Data, Everywhere” 和 Anthropic Academy 的 Claude 101，想用更系统的方式补足数据与 AI 工具的实操基础。",
+        "持续了解 Corporate FP&A 的工作方式、预算预测逻辑和战略估值场景。",
         "研究新的食谱和烹饪技巧视频。",
-        "计划从 New England 地区开始探索徒步路线。",
+        "计划从 New England 开始慢慢探索适合周末的徒步路线。",
       ],
       education: "教育背景",
+      educationNote: "作为基础信息简要呈现，页面重点仍放在工作经历上。",
+      resumeSectionNote: "给招聘方和 hiring manager 快速浏览用。",
       workEyebrow: "工作经历",
-      workTitle: "Professional Journey",
-      workSubtitle: "审计 • 估值 • 金融工具 — hover 查看详情",
-      projectsTitle: "The Innovation Lab",
+      workTitle: "职业经历",
+      workSubtitle: "审计 • 估值 • 金融工具 — 悬停查看详情",
+      projectsTitle: "创新实验室",
       projectsBadge: "↑ 正在建设中",
+      selfTaught: "自学中",
+      upskilling: "能力补充",
+      inProgress: "进行中",
+      projectOneTitle: "用 Python 做财务自动化",
+      projectOneBody: "正在尝试用小脚本清理财务数据、整理周期性报表任务，慢慢减少重复性的 Excel 手工操作。",
+      projectOneTags: ["Python", "Pandas"],
+      projectTwoTitle: "Vibe Coding 和 GitHub 探索",
+      projectTwoBody: "最近很喜欢 vibe coding，也会在 GitHub 上找各种感兴趣的话题、小工具和可以借鉴的灵感。",
+      projectTwoTags: ["Vibe Coding", "GitHub 探索"],
       contactTitle: "联系我",
       contactSubtitle: "我喜欢认识新朋友",
-      contactLead1: "Building something",
-      contactLead2: "meaningful with data?",
+      contactLead1: "如果你正在搭建",
+      contactLead2: "和数据有关的财务工作流",
       contactBody:
-        "如果你正在招聘 corporate finance 相关岗位，或需要连接传统会计与现代数据分析背景的人，或者只是想聊聊 espresso beans，我都很愿意交流。",
+        "如果你正在招聘企业会计、基金会计、Treasury 或 FP&A 相关岗位，或者需要一个能连接传统会计与数据分析背景的人，我都很愿意交流。想聊 espresso beans 也欢迎。",
+      dropLine: "↓ 欢迎联系我",
+      emailLabel: "邮箱",
+      phoneLabel: "电话",
       openTo: "感兴趣方向",
-      openItems: ["Corporate Accounting Roles", "Fund Accounting/Treasury Positions", "FP&A Accounting Positions"],
-      availability: "Open to opportunities",
+      openItems: ["企业会计相关岗位", "基金会计 / Treasury 相关岗位", "FP&A 会计分析相关岗位"],
+      availability: "正在开放新机会",
       availabilityBody:
-        "正在积极探索 corporate finance 方向，尤其关注 analytics、strategy 和 treasury。地点灵活，Boston 地区优先。",
+        "正在积极关注企业会计、基金会计、Treasury 和 FP&A 相关机会。地点灵活，Boston 地区优先。",
+      bostonTitle: "目前在 Boston",
+      bostonBody: "现在主要在 Boston 地区，也很愿意了解 hybrid 或远程机会。欢迎聊财务、数据，也欢迎轻松约一杯咖啡。",
       footer: "Designed with warmth ✦ All rights reserved.",
     },
   }[language];
@@ -134,7 +186,10 @@ export default function App() {
       company: "Ernst & Young",
       team: "T3 - Financial Instruments Team",
       role: "Audit Senior",
-      period: "Oct 2024 - Present",
+      period: "Oct 2024 - Mar 2026",
+      teamZh: "T3 - 金融工具团队",
+      roleZh: "审计高级",
+      periodZh: "2024年10月 - 2026年3月",
       location: "Boston, MA",
       highlights: [
         "Specialized in auditing complex financial instruments, pension portfolios, and derivatives under ASC 815 (Derivatives & Hedging).",
@@ -142,12 +197,21 @@ export default function App() {
         "Provided advanced assurance and analytical insights for commercial banking, insurance, and high-growth technology clients.",
         "Streamlined audit tracking and budget metrics, enhancing execution transparency and resource efficiency.",
       ],
+      highlightsZh: [
+        "专注于复杂金融工具、养老金投资组合和衍生品相关审计，覆盖 ASC 815（Derivatives & Hedging）等准则要求。",
+        "评估客户的风险管理框架和内部控制，识别控制设计缺口，并关注合规要求是否得到落实。",
+        "为商业银行、保险和高成长科技客户提供审计支持与分析洞察。",
+        "优化审计进度和预算跟踪方式，提高执行过程的透明度和资源使用效率。",
+      ],
     },
     "ey-wam": {
       company: "Ernst & Young",
       team: "FSO - Wealth & Asset Management",
       role: "Audit Senior",
       period: "May 2022 - Oct 2024",
+      teamZh: "FSO - 财富与资产管理",
+      roleZh: "审计高级",
+      periodZh: "2022年5月 - 2024年10月",
       location: "Boston, MA",
       highlights: [
         "Supervised and executed complete audit workflows for high-capital mutual funds and asset management portfolios.",
@@ -155,17 +219,31 @@ export default function App() {
         "Identified and mitigated financial risks by designing substantive audit programs for high-exposure accounts.",
         "Cultivated exceptional client relationships, balancing strict audit rigor with responsive service delivery.",
       ],
+      highlightsZh: [
+        "负责并推进高资本规模共同基金和资产管理组合的完整审计流程。",
+        "复核并分析 NAV 计算，重点核对现金、持仓和复杂市场价值。",
+        "围绕高风险账户设计实质性审计程序，识别并应对潜在财务风险。",
+        "维护高质量客户沟通，在审计严谨性和响应效率之间保持平衡。",
+      ],
     },
     "malone-bailey": {
       company: "Malone Bailey, LLP",
       team: "Audit Practice",
       role: "Audit Associate",
       period: "July 2021 - Apr 2022",
+      teamZh: "审计业务",
+      roleZh: "审计助理",
+      periodZh: "2021年7月 - 2022年4月",
       location: "Houston, TX",
       highlights: [
         "Conducted substantive audit testing and interim reviews of balance sheets, revenue cycles, and transactional integrity.",
         "Executed core field assignments aligned strictly with professional auditing standards, milestones, and firm methodologies.",
         "Synthesized technical workpapers to resolve accounting discrepancies, presenting analytical updates to directors.",
+      ],
+      highlightsZh: [
+        "参与资产负债表、收入循环和交易完整性的实质性测试与期中复核。",
+        "按照审计准则、项目节点和事务所方法论完成核心现场工作。",
+        "整理技术性底稿并分析会计差异，向项目负责人汇报关键发现。",
       ],
     },
     "jackson-hewitt": {
@@ -173,16 +251,29 @@ export default function App() {
       team: "Liu Inc.",
       role: "Senior Accountant",
       period: "Oct 2018 - June 2021",
+      teamZh: "Liu Inc.",
+      roleZh: "高级会计",
+      periodZh: "2018年10月 - 2021年6月",
       location: "Plymouth, MN",
       highlights: [
         "Managed daily general ledger accounting, periodic closings, complex bank reconciliations, and GAAP statement preparation.",
         "Conducted deep-dive financial analyses and researched specific tax treatments for early-stage startups and investment entities.",
         "Designed and implemented process improvements to automate general ledger flows, saving significant close-cycle hours.",
       ],
+      highlightsZh: [
+        "负责日常总账会计、周期性关账、银行调节和 GAAP 财务报表准备。",
+        "开展财务分析，并为初创企业和投资主体研究特定税务处理。",
+        "设计并落地流程改进，自动化部分总账处理，减少关账周期中的重复性工作。",
+      ],
     },
   };
 
   const currentIcons = [BookOpen, Code, Database, Heart, Globe2];
+  const activeExperience = experienceData[activeExp as keyof typeof experienceData];
+  const expRole = isZh ? activeExperience.roleZh : activeExperience.role;
+  const expTeam = isZh ? activeExperience.teamZh : activeExperience.team;
+  const expHighlights = isZh ? activeExperience.highlightsZh : activeExperience.highlights;
+  const resumeUrl = `${import.meta.env.BASE_URL}qinyan-luo-resume-2026-06-30.pdf`;
 
   return (
     <div className="min-h-screen bg-[#F9F6F0] text-[#332D2D] font-sans antialiased selection:bg-[#EAE5DE] selection:text-[#9C5A6A] overflow-x-hidden">
@@ -264,8 +355,9 @@ export default function App() {
                 <span key={i} className="px-4 py-1.5 rounded-full bg-[#EFEAE2] text-[#5A504E] text-[12px] font-medium border border-[#EAE5DE]">{tag}</span>
               ))}
             </div>
-            <div className="flex items-center gap-4">
+            <div className="flex flex-wrap items-center gap-4">
               <a href="#work" className="px-6 py-3.5 rounded-full bg-[#332D2D] text-white text-[13px] font-medium hover:bg-[#1A1717] transition-all flex items-center gap-2 shadow-md">{text.cta}</a>
+              <a href="#resume" className="px-6 py-3.5 rounded-full bg-white text-[#5A504E] text-[13px] font-medium hover:text-[#9C5A6A] transition-all flex items-center gap-2 shadow-sm border border-[#EAE5DE]"><FileText className="w-4 h-4" /> {text.resumeCta}</a>
             </div>
           </div>
           <div className="w-full max-w-[340px] lg:w-[340px] mx-auto lg:mx-0 lg:mt-6 shrink-0">
@@ -277,10 +369,10 @@ export default function App() {
                   className="h-full w-full object-cover object-[52%_36%] saturate-[0.92] contrast-[0.96]"
                 />
               </div>
-              <div className="absolute -left-3 top-7 rounded-full border border-[#EAE5DE] bg-[#F9F6F0] px-3 py-1.5 text-[11px] font-medium text-[#9C5A6A] shadow-sm">Boston light ✦</div>
+              <div className="absolute -left-3 top-7 rounded-full border border-[#EAE5DE] bg-[#F9F6F0] px-3 py-1.5 text-[11px] font-medium text-[#9C5A6A] shadow-sm">{text.portraitBadge}</div>
               <div className="mt-3 flex items-center justify-between px-1">
-                <span className="font-serif-elegant italic text-[15px] text-[#332D2D]">finance + data explorer</span>
-                <span className="text-[11px] font-semibold uppercase tracking-wider text-[#A09596]">Boston</span>
+                <span className="font-serif-elegant italic text-[15px] text-[#332D2D]">{text.portraitCaption}</span>
+                <span className="text-[11px] font-semibold uppercase tracking-wider text-[#A09596]">{text.portraitCity}</span>
               </div>
             </div>
           </div>
@@ -314,28 +406,6 @@ export default function App() {
           </div>
         </div>
 
-        <div className="bg-white border border-[#EAE5DE] rounded-[32px] p-8 md:p-12 mb-24 shadow-[0_2px_10px_rgba(0,0,0,0.02)]">
-          <h3 className="font-serif-elegant text-2xl text-[#332D2D] mb-10 flex items-center gap-2"><span className="text-[#9C5A6A] font-sans text-lg">↓</span> {text.education}</h3>
-          <div className="space-y-0 relative">
-            <div className="flex gap-6 pb-8 border-b border-[#F5F2EC]">
-              <div className="w-10 h-10 rounded-full bg-[#F4EBEF] text-[#9C5A6A] flex items-center justify-center font-serif-elegant text-lg shrink-0 italic shadow-sm">1</div>
-              <div>
-                <h4 className="text-[16px] font-semibold text-[#332D2D]">University of Minnesota - Carlson School of Management</h4>
-                <p className="text-[14px] text-[#7D7371] mt-1">Master of Accountancy</p>
-                <div className="flex items-center gap-3 mt-3"><span className="px-3 py-1 rounded-full bg-[#F9F6F0] text-[#7D7371] text-[11px] font-medium border border-[#EAE5DE]">May 2018</span><span className="text-[12px] text-[#9C5A6A] italic">Minneapolis ❄️</span></div>
-              </div>
-            </div>
-            <div className="flex gap-6 pt-8">
-              <div className="w-10 h-10 rounded-full bg-[#F4EBEF] text-[#9C5A6A] flex items-center justify-center font-serif-elegant text-lg shrink-0 italic shadow-sm">2</div>
-              <div>
-                <h4 className="text-[16px] font-semibold text-[#332D2D]">University of Minnesota</h4>
-                <p className="text-[14px] text-[#7D7371] mt-1">B.S. Business in Accounting & Finance</p>
-                <div className="flex items-center gap-3 mt-3"><span className="px-3 py-1 rounded-full bg-[#F9F6F0] text-[#7D7371] text-[11px] font-medium border border-[#EAE5DE]">Dec 2016</span><span className="text-[12px] text-[#9C5A6A] italic">Go Gophers 🐿️</span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <div id="work" className="mb-12">
           <span className="text-[#9C5A6A] text-[11px] font-bold uppercase tracking-[0.2em] mb-4 flex items-center gap-2"><ArrowRight className="w-3.5 h-3.5" /> {text.workEyebrow}</span>
           <h2 className="font-serif-elegant text-4xl md:text-5xl text-[#332D2D] mb-2">{text.workTitle}</h2>
@@ -347,9 +417,9 @@ export default function App() {
                 const isSelected = activeExp === key;
                 return (
                   <div key={key} onMouseEnter={() => setActiveExp(key)} onClick={() => setActiveExp(key)} className={`cursor-pointer text-left p-4 rounded-2xl transition-all duration-300 shrink-0 lg:shrink w-64 lg:w-full border ${isSelected ? "bg-[#FDFBFA] border-[#EAE5DE] shadow-sm transform lg:translate-x-1" : "bg-transparent border-transparent hover:bg-[#F9F6F0]"}`}>
-                    <span className={`block text-[11px] uppercase tracking-wider font-semibold ${isSelected ? "text-[#9C5A6A]" : "text-[#A09596]"}`}>{data.period}</span>
+                    <span className={`block text-[11px] uppercase tracking-wider font-semibold ${isSelected ? "text-[#9C5A6A]" : "text-[#A09596]"}`}>{isZh ? data.periodZh : data.period}</span>
                     <span className={`block text-[15px] font-semibold mt-1.5 ${isSelected ? "text-[#332D2D]" : "text-[#7D7371]"}`}>{data.company}</span>
-                    <span className="block text-[13px] text-[#A09596] mt-0.5">{data.role}</span>
+                    <span className="block text-[13px] text-[#A09596] mt-0.5">{isZh ? data.roleZh : data.role}</span>
                   </div>
                 );
               })}
@@ -357,18 +427,93 @@ export default function App() {
             <div className="lg:col-span-8 bg-[#FDFBFA] border border-[#F5F2EC] rounded-[24px] p-8 min-h-[320px] shadow-sm">
               <div className="flex flex-col sm:flex-row sm:items-start justify-between border-b border-[#F5F2EC] pb-5 mb-6">
                 <div>
-                  <h4 className="text-xl font-serif-elegant font-medium text-[#332D2D]">{experienceData[activeExp as keyof typeof experienceData].role}</h4>
-                  <p className="text-[14px] font-medium text-[#9C5A6A] mt-1">{experienceData[activeExp as keyof typeof experienceData].company} <span className="text-[#A09596] font-normal">• {experienceData[activeExp as keyof typeof experienceData].team}</span></p>
+                  <h4 className="text-xl font-serif-elegant font-medium text-[#332D2D]">{expRole}</h4>
+                  <p className="text-[14px] font-medium text-[#9C5A6A] mt-1">{activeExperience.company} <span className="text-[#A09596] font-normal">• {expTeam}</span></p>
                 </div>
-                <div className="mt-3 sm:mt-0 flex items-center gap-1.5 text-[12px] text-[#A09596] bg-white px-3 py-1.5 rounded-full border border-[#EAE5DE]"><MapPin className="w-3.5 h-3.5 text-[#9C5A6A]" /> {experienceData[activeExp as keyof typeof experienceData].location}</div>
+                <div className="mt-3 sm:mt-0 flex items-center gap-1.5 text-[12px] text-[#A09596] bg-white px-3 py-1.5 rounded-full border border-[#EAE5DE]"><MapPin className="w-3.5 h-3.5 text-[#9C5A6A]" /> {activeExperience.location}</div>
               </div>
               <ul className="space-y-4">
-                {experienceData[activeExp as keyof typeof experienceData].highlights.map((bullet, idx) => (
+                {expHighlights.map((bullet, idx) => (
                   <li key={idx} className="flex items-start gap-3 transition-opacity duration-300"><CheckCircle2 className="w-4 h-4 text-[#9C5A6A]/80 mt-0.5 shrink-0" /><span className="text-[14px] text-[#5A504E] leading-[1.7]">{bullet}</span></li>
                 ))}
               </ul>
             </div>
           </div>
+        </div>
+
+        <div className="mb-10 space-y-6">
+          <section className="bg-white border border-[#EAE5DE] rounded-[28px] p-6 md:p-8 shadow-[0_2px_10px_rgba(0,0,0,0.02)]">
+            <div className="flex items-start gap-4">
+              <div className="w-10 h-10 rounded-2xl bg-[#F4EBEF] text-[#9C5A6A] flex items-center justify-center shrink-0">
+                <BookOpen className="w-4 h-4" />
+              </div>
+              <div className="w-full">
+                <h3 className="font-serif-elegant text-2xl text-[#332D2D] mb-2">{text.education}</h3>
+                <p className="text-[12px] text-[#A09596] leading-relaxed mb-5">{text.educationNote}</p>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                  <div className="rounded-[22px] border border-[#F5F2EC] bg-[#FDFBFA] p-5">
+                    <h4 className="text-[14px] font-semibold text-[#332D2D]">University of Minnesota - Carlson School of Management</h4>
+                    <p className="text-[13px] text-[#7D7371] mt-1">Master of Accountancy</p>
+                    <span className="inline-flex mt-2 px-3 py-1 rounded-full bg-[#F9F6F0] text-[#7D7371] text-[11px] font-medium border border-[#EAE5DE]">May 2018 · Minneapolis</span>
+                  </div>
+                  <div className="rounded-[22px] border border-[#F5F2EC] bg-[#FDFBFA] p-5">
+                    <h4 className="text-[14px] font-semibold text-[#332D2D]">University of Minnesota</h4>
+                    <p className="text-[13px] text-[#7D7371] mt-1">B.S. Business in Accounting & Finance</p>
+                    <span className="inline-flex mt-2 px-3 py-1 rounded-full bg-[#F9F6F0] text-[#7D7371] text-[11px] font-medium border border-[#EAE5DE]">Dec 2016 · Minneapolis</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="resume" className="bg-white border border-[#EAE5DE] rounded-[28px] p-6 md:p-8 shadow-[0_2px_10px_rgba(0,0,0,0.02)]">
+            <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
+              <div>
+                <div className="flex items-center gap-2 mb-2">
+                  <FileText className="w-4 h-4 text-[#9C5A6A]" />
+                  <span className="text-[11px] uppercase tracking-[0.18em] font-bold text-[#9C5A6A]">{text.resumeSectionNote}</span>
+                </div>
+                <h3 className="font-serif-elegant text-3xl text-[#332D2D] mb-3">{text.resumeTitle}</h3>
+                <p className="text-[13px] text-[#7D7371] leading-relaxed max-w-xl">{text.resumeSubtitle}</p>
+              </div>
+              <div className="flex flex-wrap gap-3 shrink-0">
+                <a
+                  href={resumeUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-[#9C5A6A] text-white text-[12px] font-semibold hover:bg-[#8A4E5C] transition-colors shadow-sm"
+                >
+                  <FileText className="w-4 h-4" /> {text.resumePreview}
+                </a>
+                <a
+                  href={resumeUrl}
+                  download
+                  className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-[#F9F6F0] text-[#7D7371] text-[12px] font-semibold border border-[#EAE5DE] hover:text-[#9C5A6A] hover:border-[#D9CCC4] transition-colors"
+                >
+                  <Download className="w-4 h-4" /> {text.resumeDownload}
+                </a>
+              </div>
+            </div>
+            <div className="mt-6 grid grid-cols-1 lg:grid-cols-12 gap-5">
+              <div className="lg:col-span-4 rounded-[22px] border border-[#F5F2EC] bg-[#FDFBFA] p-5">
+                <ul className="space-y-4">
+                  {text.resumeBullets.map((item, idx) => (
+                    <li key={idx} className="flex items-start gap-3 text-[13px] text-[#5A504E] leading-relaxed">
+                      <CheckCircle2 className="w-4 h-4 text-[#9C5A6A] mt-0.5 shrink-0" />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="lg:col-span-8 overflow-hidden rounded-[22px] border border-[#EAE5DE] bg-[#FDFBFA] shadow-inner">
+                <iframe
+                  src={`${resumeUrl}#toolbar=0&navpanes=0`}
+                  title="Qinyan Luo Resume PDF preview"
+                  className="h-[520px] w-full bg-white"
+                />
+              </div>
+            </div>
+          </section>
         </div>
 
         <div id="projects" className="mb-24 mt-12">
@@ -379,16 +524,16 @@ export default function App() {
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-[#FDFBFA] border border-[#F5F2EC] rounded-[24px] p-8 hover:border-[#EAE5DE] transition-colors group shadow-sm">
-                <div className="flex items-center gap-2 mb-4"><span className="px-3 py-1 rounded-full border border-[#EAE5DE] text-[#7D7371] text-[11px] font-medium bg-white">Self-Taught</span><span className="px-3 py-1 rounded-full bg-[#F9F6F0] text-[#5A504E] text-[11px] font-medium flex items-center gap-1 border border-[#EAE5DE]">In Progress 🐾</span></div>
-                <h4 className="font-serif-elegant text-2xl text-[#332D2D] mb-3">Financial Automation with Python</h4>
-                <p className="text-[13px] text-[#5A504E] leading-[1.7] mb-6">Building practical scripts to clean financial datasets, organize recurring reporting tasks, and reduce manual Excel overhead step by step.</p>
-                <div className="flex flex-wrap gap-2"><span className="px-3 py-1.5 rounded-full bg-white border border-[#F5F2EC] text-[#7D7371] text-[11px]">Python</span><span className="px-3 py-1.5 rounded-full bg-white border border-[#F5F2EC] text-[#7D7371] text-[11px]">Pandas</span></div>
+                <div className="flex items-center gap-2 mb-4"><span className="px-3 py-1 rounded-full border border-[#EAE5DE] text-[#7D7371] text-[11px] font-medium bg-white">{text.selfTaught}</span><span className="px-3 py-1 rounded-full bg-[#F9F6F0] text-[#5A504E] text-[11px] font-medium flex items-center gap-1 border border-[#EAE5DE]">{text.inProgress} ✦</span></div>
+                <h4 className="font-serif-elegant text-2xl text-[#332D2D] mb-3">{text.projectOneTitle}</h4>
+                <p className="text-[13px] text-[#5A504E] leading-[1.7] mb-6">{text.projectOneBody}</p>
+                <div className="flex flex-wrap gap-2">{text.projectOneTags.map((tag) => <span key={tag} className="px-3 py-1.5 rounded-full bg-white border border-[#F5F2EC] text-[#7D7371] text-[11px]">{tag}</span>)}</div>
               </div>
               <div className="bg-[#FDFBFA] border border-[#F5F2EC] rounded-[24px] p-8 hover:border-[#EAE5DE] transition-colors group shadow-sm">
-                <div className="flex items-center gap-2 mb-4"><span className="px-3 py-1 rounded-full border border-[#EAE5DE] text-[#7D7371] text-[11px] font-medium bg-white">Upskilling</span><span className="px-3 py-1 rounded-full bg-[#F9F6F0] text-[#5A504E] text-[11px] font-medium flex items-center gap-1 border border-[#EAE5DE]">In Progress 🐾</span></div>
-                <h4 className="font-serif-elegant text-2xl text-[#332D2D] mb-3">Vibe Coding & GitHub Exploring</h4>
-                <p className="text-[13px] text-[#5A504E] leading-[1.7] mb-6">Recently obsessed with vibe coding and browsing GitHub for interesting topics, playful tools, and small ideas worth learning from.</p>
-                <div className="flex flex-wrap gap-2"><span className="px-3 py-1.5 rounded-full bg-white border border-[#F5F2EC] text-[#7D7371] text-[11px]">Vibe Coding</span><span className="px-3 py-1.5 rounded-full bg-white border border-[#F5F2EC] text-[#7D7371] text-[11px]">GitHub Discovery</span></div>
+                <div className="flex items-center gap-2 mb-4"><span className="px-3 py-1 rounded-full border border-[#EAE5DE] text-[#7D7371] text-[11px] font-medium bg-white">{text.upskilling}</span><span className="px-3 py-1 rounded-full bg-[#F9F6F0] text-[#5A504E] text-[11px] font-medium flex items-center gap-1 border border-[#EAE5DE]">{text.inProgress} ✦</span></div>
+                <h4 className="font-serif-elegant text-2xl text-[#332D2D] mb-3">{text.projectTwoTitle}</h4>
+                <p className="text-[13px] text-[#5A504E] leading-[1.7] mb-6">{text.projectTwoBody}</p>
+                <div className="flex flex-wrap gap-2">{text.projectTwoTags.map((tag) => <span key={tag} className="px-3 py-1.5 rounded-full bg-white border border-[#F5F2EC] text-[#7D7371] text-[11px]">{tag}</span>)}</div>
               </div>
             </div>
           </div>
@@ -402,10 +547,10 @@ export default function App() {
               <h3 className="font-serif-elegant text-3xl text-[#332D2D] mb-2">{text.contactLead1}</h3>
               <h3 className="font-serif-elegant italic text-3xl text-[#9C5A6A] mb-6">{text.contactLead2}</h3>
               <p className="text-[14px] text-[#5A504E] leading-[1.7] mb-8 max-w-md">{text.contactBody}</p>
-              <span className="text-[#9C5A6A] text-[12px] font-serif-elegant italic block mb-4 flex items-center gap-2">↓ drop me a line</span>
+              <span className="text-[#9C5A6A] text-[12px] font-serif-elegant italic block mb-4 flex items-center gap-2">{text.dropLine}</span>
               <div className="space-y-3 mb-8">
-                <a href="mailto:olivia.lqy2020@gmail.com" className="flex items-center gap-4 p-4 border border-[#F5F2EC] rounded-2xl hover:border-[#EAE5DE] transition-colors group bg-[#FDFBFA]"><div className="w-10 h-10 rounded-xl bg-[#F4EBEF] text-[#9C5A6A] flex items-center justify-center shrink-0"><Mail className="w-4 h-4" /></div><div><span className="block text-[10px] uppercase tracking-wider text-[#A09596] font-semibold mb-0.5">Email</span><span className="text-[13px] text-[#332D2D] font-medium group-hover:text-[#9C5A6A] transition-colors">olivia.lqy2020@gmail.com</span></div></a>
-                <a href="tel:+16513637924" className="flex items-center gap-4 p-4 border border-[#F5F2EC] rounded-2xl hover:border-[#EAE5DE] transition-colors group bg-[#FDFBFA]"><div className="w-10 h-10 rounded-xl bg-[#F9F6F0] text-[#9C5A6A] flex items-center justify-center shrink-0"><Phone className="w-4 h-4" /></div><div><span className="block text-[10px] uppercase tracking-wider text-[#A09596] font-semibold mb-0.5">Phone</span><span className="text-[13px] text-[#332D2D] font-medium group-hover:text-[#9C5A6A] transition-colors">651-363-7924</span></div></a>
+                <a href="mailto:olivia.lqy2020@gmail.com" className="flex items-center gap-4 p-4 border border-[#F5F2EC] rounded-2xl hover:border-[#EAE5DE] transition-colors group bg-[#FDFBFA]"><div className="w-10 h-10 rounded-xl bg-[#F4EBEF] text-[#9C5A6A] flex items-center justify-center shrink-0"><Mail className="w-4 h-4" /></div><div><span className="block text-[10px] uppercase tracking-wider text-[#A09596] font-semibold mb-0.5">{text.emailLabel}</span><span className="text-[13px] text-[#332D2D] font-medium group-hover:text-[#9C5A6A] transition-colors">olivia.lqy2020@gmail.com</span></div></a>
+                <a href="tel:+16513637924" className="flex items-center gap-4 p-4 border border-[#F5F2EC] rounded-2xl hover:border-[#EAE5DE] transition-colors group bg-[#FDFBFA]"><div className="w-10 h-10 rounded-xl bg-[#F9F6F0] text-[#9C5A6A] flex items-center justify-center shrink-0"><Phone className="w-4 h-4" /></div><div><span className="block text-[10px] uppercase tracking-wider text-[#A09596] font-semibold mb-0.5">{text.phoneLabel}</span><span className="text-[13px] text-[#332D2D] font-medium group-hover:text-[#9C5A6A] transition-colors">651-363-7924</span></div></a>
                 <a href="https://linkedin.com/in/qinyan-luo" target="_blank" rel="noreferrer" className="flex items-center gap-4 p-4 border border-[#F5F2EC] rounded-2xl hover:border-[#EAE5DE] transition-colors group bg-[#FDFBFA]"><div className="w-10 h-10 rounded-xl bg-[#F9F6F0] text-[#7D7371] flex items-center justify-center shrink-0"><LinkedinIcon className="w-4 h-4" /></div><div><span className="block text-[10px] uppercase tracking-wider text-[#A09596] font-semibold mb-0.5">LinkedIn</span><span className="text-[13px] text-[#332D2D] font-medium group-hover:text-[#9C5A6A] transition-colors">linkedin.com/in/qinyan-luo</span></div></a>
                 <a href="https://github.com/Olivialqy2020" target="_blank" rel="noreferrer" className="flex items-center gap-4 p-4 border border-[#F5F2EC] rounded-2xl hover:border-[#EAE5DE] transition-colors group bg-[#FDFBFA]"><div className="w-10 h-10 rounded-xl bg-[#F4EBEF] text-[#7D7371] flex items-center justify-center shrink-0"><GithubIcon className="w-4 h-4" /></div><div><span className="block text-[10px] uppercase tracking-wider text-[#A09596] font-semibold mb-0.5">GitHub</span><span className="text-[13px] text-[#332D2D] font-medium group-hover:text-[#9C5A6A] transition-colors">github.com/Olivialqy2020</span></div></a>
               </div>
@@ -444,8 +589,8 @@ export default function App() {
                   <span className="absolute right-10 bottom-4 text-[10px] font-semibold uppercase tracking-wider text-[#7F7272]">Back Bay</span>
                 </div>
                 <div className="relative pt-36">
-                  <h3 className="font-serif-elegant text-xl text-[#332D2D] mb-3 flex items-center gap-2"><MapPin className="w-4 h-4 text-[#9C5A6A]" /> Boston-based</h3>
-                  <p className="text-[13px] text-[#7D7371] leading-relaxed">Currently based in the Boston area, with a soft spot for hybrid roles, finance conversations, and thoughtful coffee chats.</p>
+                  <h3 className="font-serif-elegant text-xl text-[#332D2D] mb-3 flex items-center gap-2"><MapPin className="w-4 h-4 text-[#9C5A6A]" /> {text.bostonTitle}</h3>
+                  <p className="text-[13px] text-[#7D7371] leading-relaxed">{text.bostonBody}</p>
                 </div>
               </div>
             </div>
