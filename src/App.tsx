@@ -77,7 +77,7 @@ export default function App() {
       contactBody:
         "Whether you're hiring for a corporate finance role, need someone to bridge traditional accounting with modern analytics, or just want to chat about espresso beans — I'd love to hear from you.",
       openTo: "Open to",
-      openItems: ["Corporate Finance Roles", "FP&A Analyst Positions", "Strategic Valuation & Treasury"],
+      openItems: ["Corporate Accounting Roles", "Fund Accounting/Treasury Positions", "FP&A Accounting Positions"],
       availability: "Open to opportunities",
       availabilityBody:
         "Actively exploring corporate finance roles across analytics, strategy, and treasury. Location flexible (Boston area preferred). Let's chat!",
@@ -121,7 +121,7 @@ export default function App() {
       contactBody:
         "如果你正在招聘 corporate finance 相关岗位，或需要连接传统会计与现代数据分析背景的人，或者只是想聊聊 espresso beans，我都很愿意交流。",
       openTo: "感兴趣方向",
-      openItems: ["Corporate Finance Roles", "FP&A Analyst Positions", "Strategic Valuation & Treasury"],
+      openItems: ["Corporate Accounting Roles", "Fund Accounting/Treasury Positions", "FP&A Accounting Positions"],
       availability: "Open to opportunities",
       availabilityBody:
         "正在积极探索 corporate finance 方向，尤其关注 analytics、strategy 和 treasury。地点灵活，Boston 地区优先。",
@@ -248,8 +248,8 @@ export default function App() {
       )}
 
       <main className="max-w-6xl mx-auto px-6 md:px-12 py-12 md:py-20 font-sans-round">
-        <div id="hello" className="mb-24 flex flex-col md:flex-row justify-between items-start gap-12">
-          <div className="max-w-4xl">
+        <div id="hello" className="mb-24 flex flex-col lg:flex-row justify-between items-start lg:items-center gap-12">
+          <div className="max-w-4xl lg:max-w-3xl">
             <span className="text-[#9C5A6A] text-[11px] font-bold uppercase tracking-[0.2em] mb-6 flex items-center gap-2">
               <span className="text-lg">↳</span> {text.heroEyebrow}
             </span>
@@ -266,6 +266,22 @@ export default function App() {
             </div>
             <div className="flex items-center gap-4">
               <a href="#work" className="px-6 py-3.5 rounded-full bg-[#332D2D] text-white text-[13px] font-medium hover:bg-[#1A1717] transition-all flex items-center gap-2 shadow-md">{text.cta}</a>
+            </div>
+          </div>
+          <div className="w-full max-w-[340px] lg:w-[340px] mx-auto lg:mx-0 lg:mt-6 shrink-0">
+            <div className="relative rotate-[1deg] rounded-[32px] border border-[#EAE5DE] bg-white p-3 shadow-[0_2px_10px_rgba(0,0,0,0.04)]">
+              <div className="aspect-[4/5] overflow-hidden rounded-[24px] bg-[#F4EBEF]">
+                <img
+                  src={`${import.meta.env.BASE_URL}olivia-portrait.jpeg`}
+                  alt="Olivia Luo by the water in Boston"
+                  className="h-full w-full object-cover object-[52%_36%] saturate-[0.92] contrast-[0.96]"
+                />
+              </div>
+              <div className="absolute -left-3 top-7 rounded-full border border-[#EAE5DE] bg-[#F9F6F0] px-3 py-1.5 text-[11px] font-medium text-[#9C5A6A] shadow-sm">Boston light ✦</div>
+              <div className="mt-3 flex items-center justify-between px-1">
+                <span className="font-serif-elegant italic text-[15px] text-[#332D2D]">finance + data explorer</span>
+                <span className="text-[11px] font-semibold uppercase tracking-wider text-[#A09596]">Boston</span>
+              </div>
             </div>
           </div>
         </div>
@@ -405,22 +421,27 @@ export default function App() {
                 <p className="text-[13px] text-[#7D7371] leading-relaxed">{text.availabilityBody}</p>
               </div>
               <div className="bg-white border border-[#EAE5DE] rounded-[32px] p-8 shadow-[0_2px_10px_rgba(0,0,0,0.02)] overflow-hidden relative">
-                <div className="absolute inset-x-8 top-8 h-28 rounded-[24px] bg-[#FCF8F7] border border-[#EAE5DE] overflow-hidden">
-                  <div className="absolute -left-4 top-12 h-5 w-60 rotate-[-10deg] rounded-full bg-[#E6DED8]" />
-                  <div className="absolute right-[-18px] top-2 h-24 w-20 rounded-full bg-[#F1E8E4]" />
-                  <div className="absolute left-6 top-8 h-px w-44 rotate-[-16deg] bg-[#D8CFC7]" />
-                  <div className="absolute left-16 top-4 h-px w-48 rotate-[22deg] bg-[#D8CFC7]" />
-                  <div className="absolute left-28 top-14 h-px w-40 rotate-[-8deg] bg-[#D8CFC7]" />
-                  <div className="absolute left-12 top-16 h-12 w-px rotate-[18deg] bg-[#D8CFC7]" />
-                  <div className="absolute right-16 top-6 h-14 w-px rotate-[-24deg] bg-[#D8CFC7]" />
-                  <span className="absolute left-10 top-8 h-2.5 w-2.5 rounded-full bg-[#9C5A6A] shadow-[0_0_0_5px_rgba(156,90,106,0.16)]" />
-                  <span className="absolute left-20 top-7 text-[11px] text-[#9C5A6A]">☕</span>
-                  <span className="absolute right-20 top-12 text-[10px] text-[#9C5A6A]">✦</span>
-                  <span className="absolute right-12 bottom-8 text-[10px] text-[#9C5A6A]">♡</span>
-                  <span className="absolute left-6 bottom-5 text-[10px] font-semibold uppercase tracking-wider text-[#8D7D7E]">Cambridge</span>
-                  <span className="absolute left-32 bottom-4 text-[10px] font-semibold uppercase tracking-wider text-[#8D7D7E]">Charles</span>
-                  <span className="absolute right-8 top-5 text-[10px] font-semibold uppercase tracking-wider text-[#8D7D7E]">Seaport</span>
-                  <span className="absolute right-10 bottom-5 text-[10px] font-semibold uppercase tracking-wider text-[#8D7D7E]">Back Bay</span>
+                <div className="absolute inset-x-8 top-8 h-28 rounded-[24px] bg-[#F7EFEC] border border-[#E3D9D2] overflow-hidden">
+                  <div className="absolute -left-8 top-12 h-8 w-72 rotate-[-9deg] rounded-full bg-[#C9DDDC]" />
+                  <div className="absolute right-[-20px] top-0 h-24 w-24 rounded-full bg-[#D8E7E4]" />
+                  <div className="absolute left-5 top-4 h-20 w-24 rounded-xl bg-[#DDEAE6]" />
+                  <div className="absolute left-36 top-3 h-16 w-24 rounded-xl bg-[#DDEAE6]" />
+                  <div className="absolute right-8 bottom-4 h-14 w-24 rounded-xl bg-[#DDEAE6]" />
+                  <div className="absolute left-0 top-11 h-2 w-full rotate-[-10deg] bg-[#FFF9F3]" />
+                  <div className="absolute left-16 top-0 h-32 w-2 rotate-[10deg] bg-[#FFF9F3]" />
+                  <div className="absolute left-32 top-0 h-32 w-2 rotate-[-3deg] bg-[#FFF9F3]" />
+                  <div className="absolute left-0 top-20 h-2 w-full rotate-[5deg] bg-[#FFF9F3]" />
+                  <div className="absolute right-20 top-0 h-32 w-2 rotate-[15deg] bg-[#FFF9F3]" />
+                  <span className="absolute left-12 top-8 h-3 w-3 rounded-full bg-[#9C5A6A] shadow-[0_0_0_6px_rgba(156,90,106,0.16)]" />
+                  <span className="absolute left-8 top-8 text-[12px] text-[#8B6D71]">⌂</span>
+                  <span className="absolute left-24 top-[72px] text-[11px] text-[#9C5A6A]">☕</span>
+                  <span className="absolute right-24 top-8 text-[12px] text-[#8B6D71]">▣</span>
+                  <span className="absolute right-14 bottom-8 text-[11px] text-[#9C5A6A]">✦</span>
+                  <span className="absolute left-40 bottom-7 text-[10px] text-[#8B6D71]">♡</span>
+                  <span className="absolute left-5 bottom-4 text-[10px] font-semibold uppercase tracking-wider text-[#7F7272]">Cambridge</span>
+                  <span className="absolute left-32 top-[52px] text-[10px] font-semibold uppercase tracking-wider text-[#7F7272]">Charles</span>
+                  <span className="absolute right-8 top-5 text-[10px] font-semibold uppercase tracking-wider text-[#7F7272]">Seaport</span>
+                  <span className="absolute right-10 bottom-4 text-[10px] font-semibold uppercase tracking-wider text-[#7F7272]">Back Bay</span>
                 </div>
                 <div className="relative pt-36">
                   <h3 className="font-serif-elegant text-xl text-[#332D2D] mb-3 flex items-center gap-2"><MapPin className="w-4 h-4 text-[#9C5A6A]" /> Boston-based</h3>
