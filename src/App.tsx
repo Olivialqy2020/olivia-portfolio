@@ -370,9 +370,9 @@ export default function App() {
               </div>
               <div className="bg-[#FDFBFA] border border-[#F5F2EC] rounded-[24px] p-8 hover:border-[#EAE5DE] transition-colors group shadow-sm">
                 <div className="flex items-center gap-2 mb-4"><span className="px-3 py-1 rounded-full border border-[#EAE5DE] text-[#7D7371] text-[11px] font-medium bg-white">Upskilling</span><span className="px-3 py-1 rounded-full bg-[#F9F6F0] text-[#5A504E] text-[11px] font-medium flex items-center gap-1 border border-[#EAE5DE]">In Progress 🐾</span></div>
-                <h4 className="font-serif-elegant text-2xl text-[#332D2D] mb-3">SQL & Data Modeling</h4>
-                <p className="text-[13px] text-[#5A504E] leading-[1.7] mb-6">Advancing skills in structured query languages, database join logic, and modern relational models to better understand and assemble transactional records.</p>
-                <div className="flex flex-wrap gap-2"><span className="px-3 py-1.5 rounded-full bg-white border border-[#F5F2EC] text-[#7D7371] text-[11px]">SQL</span><span className="px-3 py-1.5 rounded-full bg-white border border-[#F5F2EC] text-[#7D7371] text-[11px]">Database Queries</span></div>
+                <h4 className="font-serif-elegant text-2xl text-[#332D2D] mb-3">Vibe Coding & GitHub Exploring</h4>
+                <p className="text-[13px] text-[#5A504E] leading-[1.7] mb-6">Recently obsessed with vibe coding and browsing GitHub for interesting topics, playful tools, and small ideas worth learning from.</p>
+                <div className="flex flex-wrap gap-2"><span className="px-3 py-1.5 rounded-full bg-white border border-[#F5F2EC] text-[#7D7371] text-[11px]">Vibe Coding</span><span className="px-3 py-1.5 rounded-full bg-white border border-[#F5F2EC] text-[#7D7371] text-[11px]">GitHub Discovery</span></div>
               </div>
             </div>
           </div>
@@ -403,6 +403,29 @@ export default function App() {
               <div className="bg-white border border-[#EAE5DE] rounded-[32px] p-8 shadow-[0_2px_10px_rgba(0,0,0,0.02)]">
                 <div className="flex items-center gap-3 mb-3"><span className="relative flex h-2.5 w-2.5"><span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span><span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span></span><span className="font-serif-elegant italic text-lg text-[#332D2D]">{text.availability}</span></div>
                 <p className="text-[13px] text-[#7D7371] leading-relaxed">{text.availabilityBody}</p>
+              </div>
+              <div className="bg-white border border-[#EAE5DE] rounded-[32px] p-8 shadow-[0_2px_10px_rgba(0,0,0,0.02)] overflow-hidden relative">
+                <div className="absolute inset-x-8 top-8 h-28 rounded-[24px] bg-[#FCF8F7] border border-[#EAE5DE] overflow-hidden">
+                  <div className="absolute -left-4 top-12 h-5 w-60 rotate-[-10deg] rounded-full bg-[#E6DED8]" />
+                  <div className="absolute right-[-18px] top-2 h-24 w-20 rounded-full bg-[#F1E8E4]" />
+                  <div className="absolute left-6 top-8 h-px w-44 rotate-[-16deg] bg-[#D8CFC7]" />
+                  <div className="absolute left-16 top-4 h-px w-48 rotate-[22deg] bg-[#D8CFC7]" />
+                  <div className="absolute left-28 top-14 h-px w-40 rotate-[-8deg] bg-[#D8CFC7]" />
+                  <div className="absolute left-12 top-16 h-12 w-px rotate-[18deg] bg-[#D8CFC7]" />
+                  <div className="absolute right-16 top-6 h-14 w-px rotate-[-24deg] bg-[#D8CFC7]" />
+                  <span className="absolute left-10 top-8 h-2.5 w-2.5 rounded-full bg-[#9C5A6A] shadow-[0_0_0_5px_rgba(156,90,106,0.16)]" />
+                  <span className="absolute left-20 top-7 text-[11px] text-[#9C5A6A]">☕</span>
+                  <span className="absolute right-20 top-12 text-[10px] text-[#9C5A6A]">✦</span>
+                  <span className="absolute right-12 bottom-8 text-[10px] text-[#9C5A6A]">♡</span>
+                  <span className="absolute left-6 bottom-5 text-[10px] font-semibold uppercase tracking-wider text-[#8D7D7E]">Cambridge</span>
+                  <span className="absolute left-32 bottom-4 text-[10px] font-semibold uppercase tracking-wider text-[#8D7D7E]">Charles</span>
+                  <span className="absolute right-8 top-5 text-[10px] font-semibold uppercase tracking-wider text-[#8D7D7E]">Seaport</span>
+                  <span className="absolute right-10 bottom-5 text-[10px] font-semibold uppercase tracking-wider text-[#8D7D7E]">Back Bay</span>
+                </div>
+                <div className="relative pt-36">
+                  <h3 className="font-serif-elegant text-xl text-[#332D2D] mb-3 flex items-center gap-2"><MapPin className="w-4 h-4 text-[#9C5A6A]" /> Boston-based</h3>
+                  <p className="text-[13px] text-[#7D7371] leading-relaxed">Currently based in the Boston area, with a soft spot for hybrid roles, finance conversations, and thoughtful coffee chats.</p>
+                </div>
               </div>
             </div>
           </div>
