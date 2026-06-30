@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import {
   Mail,
   MapPin,
+  Phone,
   CheckCircle2,
   ArrowRight,
   Code,
@@ -28,6 +29,12 @@ export default function App() {
   const LinkedinIcon = ({ className = "w-4 h-4" }) => (
     <svg viewBox="0 0 24 24" fill="currentColor" className={className} aria-hidden="true">
       <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V23h-4V8zm7.5 0h3.84v2.05h.05c.54-1.02 1.85-2.1 3.8-2.1 4.06 0 4.81 2.67 4.81 6.14V23h-4v-7.88c0-1.88-.03-4.3-2.62-4.3-2.63 0-3.03 2.05-3.03 4.17V23H8V8z" />
+    </svg>
+  );
+
+  const GithubIcon = ({ className = "w-4 h-4" }) => (
+    <svg viewBox="0 0 24 24" fill="currentColor" className={className} aria-hidden="true">
+      <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2.02c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.75 2.69 1.24 3.35.95.1-.74.4-1.24.72-1.53-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.16 1.18A10.9 10.9 0 0 1 12 6.16c.98 0 1.96.13 2.88.39 2.19-1.49 3.16-1.18 3.16-1.18.62 1.58.23 2.75.11 3.04.73.81 1.18 1.83 1.18 3.09 0 4.42-2.69 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.03c0 .31.21.68.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z" />
     </svg>
   );
 
@@ -382,7 +389,9 @@ export default function App() {
               <span className="text-[#9C5A6A] text-[12px] font-serif-elegant italic block mb-4 flex items-center gap-2">↓ drop me a line</span>
               <div className="space-y-3 mb-8">
                 <a href="mailto:olivia.lqy2020@gmail.com" className="flex items-center gap-4 p-4 border border-[#F5F2EC] rounded-2xl hover:border-[#EAE5DE] transition-colors group bg-[#FDFBFA]"><div className="w-10 h-10 rounded-xl bg-[#F4EBEF] text-[#9C5A6A] flex items-center justify-center shrink-0"><Mail className="w-4 h-4" /></div><div><span className="block text-[10px] uppercase tracking-wider text-[#A09596] font-semibold mb-0.5">Email</span><span className="text-[13px] text-[#332D2D] font-medium group-hover:text-[#9C5A6A] transition-colors">olivia.lqy2020@gmail.com</span></div></a>
+                <a href="tel:+16513637924" className="flex items-center gap-4 p-4 border border-[#F5F2EC] rounded-2xl hover:border-[#EAE5DE] transition-colors group bg-[#FDFBFA]"><div className="w-10 h-10 rounded-xl bg-[#F9F6F0] text-[#9C5A6A] flex items-center justify-center shrink-0"><Phone className="w-4 h-4" /></div><div><span className="block text-[10px] uppercase tracking-wider text-[#A09596] font-semibold mb-0.5">Phone</span><span className="text-[13px] text-[#332D2D] font-medium group-hover:text-[#9C5A6A] transition-colors">651-363-7924</span></div></a>
                 <a href="https://linkedin.com/in/qinyan-luo" target="_blank" rel="noreferrer" className="flex items-center gap-4 p-4 border border-[#F5F2EC] rounded-2xl hover:border-[#EAE5DE] transition-colors group bg-[#FDFBFA]"><div className="w-10 h-10 rounded-xl bg-[#F9F6F0] text-[#7D7371] flex items-center justify-center shrink-0"><LinkedinIcon className="w-4 h-4" /></div><div><span className="block text-[10px] uppercase tracking-wider text-[#A09596] font-semibold mb-0.5">LinkedIn</span><span className="text-[13px] text-[#332D2D] font-medium group-hover:text-[#9C5A6A] transition-colors">linkedin.com/in/qinyan-luo</span></div></a>
+                <a href="https://github.com/Olivialqy2020" target="_blank" rel="noreferrer" className="flex items-center gap-4 p-4 border border-[#F5F2EC] rounded-2xl hover:border-[#EAE5DE] transition-colors group bg-[#FDFBFA]"><div className="w-10 h-10 rounded-xl bg-[#F4EBEF] text-[#7D7371] flex items-center justify-center shrink-0"><GithubIcon className="w-4 h-4" /></div><div><span className="block text-[10px] uppercase tracking-wider text-[#A09596] font-semibold mb-0.5">GitHub</span><span className="text-[13px] text-[#332D2D] font-medium group-hover:text-[#9C5A6A] transition-colors">github.com/Olivialqy2020</span></div></a>
               </div>
               <a href="mailto:olivia.lqy2020@gmail.com" className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full bg-[#9C5A6A] text-white text-[13px] font-medium hover:bg-[#8A4E5C] transition-all shadow-md">{text.sayHello} →</a>
             </div>
