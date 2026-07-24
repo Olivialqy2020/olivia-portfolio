@@ -15,6 +15,8 @@ import {
   FileText,
   Download,
   Music,
+  FlaskConical,
+  BriefcaseBusiness,
 } from "lucide-react";
 
 export default function App() {
@@ -191,22 +193,24 @@ export default function App() {
       team: "Transactional and Technical Topics “T3” - Financial Instruments Team",
       role: "Audit Senior",
       period: "Oct 2024 - Mar 2026",
-      teamZh: "交易与技术专题团队 - 金融工具组",
+      teamZh: "交易与技术专题团队 - 金融衍生品组",
       roleZh: "高级审计师",
       periodZh: "2024年10月 - 2026年3月",
       location: "Boston, MA",
       locationZh: "波士顿，MA",
       highlights: [
-        "Specialized in auditing complex financial instruments, pension portfolios, and derivatives under ASC 815 (Derivatives & Hedging).",
-        "Evaluated internal risk management frameworks and internal controls, identifying design gaps and ensuring regulatory compliance.",
-        "Provided advanced assurance and analytical insights for commercial banking, insurance, and high-growth technology clients.",
-        "Streamlined audit tracking and budget metrics, enhancing execution transparency and resource efficiency.",
+        "Specialized in audits of financial instruments, including pension-related investments and derivatives, ensuring compliance with ASC 815, ASC 820, and related technical guidance.",
+        "Tested internal controls and risk-management frameworks, identified control gaps, and aligned audit procedures with regulatory and PCAOB standards.",
+        "Provided assurance and technical insights to insurance, commercial banking, and technology clients, focusing on complex valuations and disclosures.",
+        "Mentored EY Global Delivery Services and Service Delivery Center colleagues across multiple locations, reviewed workpapers, and upheld quality standards.",
+        "Led budget tracking and hour forecasting for the FI audit team, partnering with managers and senior managers on staffing and workload planning.",
       ],
       highlightsZh: [
-        "专注于复杂金融工具、养老金投资组合和衍生品相关审计，覆盖 ASC 815（衍生工具与套期保值）等准则要求。",
-        "评估客户的风险管理框架和内部控制，识别控制设计缺口，并关注合规要求是否得到落实。",
-        "为商业银行、保险和高成长科技客户提供审计支持与分析洞察。",
-        "优化审计进度和预算跟踪方式，提高执行过程的透明度和资源使用效率。",
+        "专注于金融工具审计，包括养老金相关投资和衍生品，确保符合 ASC 815、ASC 820 及相关技术指引。",
+        "测试内部控制和风险管理框架，识别控制缺口，并使审计程序与监管要求和 PCAOB 标准保持一致。",
+        "为保险、商业银行和科技行业客户提供鉴证和技术洞察，重点关注复杂估值和披露。",
+        "指导多个地区的 EY Global Delivery Services 和 Service Delivery Center 同事，复核底稿并把控质量标准。",
+        "负责金融衍生品组的预算跟踪和工时预测，并与经理及高级经理协作规划人员配置和工作量。",
       ],
     },
     "ey-wam": {
@@ -221,20 +225,22 @@ export default function App() {
       location: "Boston, MA",
       locationZh: "波士顿，MA",
       highlights: [
-        "Supervised and executed complete audit workflows for high-capital mutual funds and asset management portfolios.",
-        "Reperformed and analyzed NAV calculations, with rigorous reconciliations of cash, positions, and complex market values.",
-        "Identified and mitigated financial risks by designing substantive audit programs for high-exposure accounts.",
-        "Cultivated exceptional client relationships, balancing strict audit rigor with responsive service delivery.",
+        "Led and executed audit fieldwork for multiple fund clients, ensuring compliance with financial reporting standards and regulatory requirements.",
+        "Reviewed and reperformed net asset value calculations and financial statement audit procedures for mutual funds, including reconciliations of cash, positions, and market values.",
+        "Managed fund audit workflows and documented findings, particularly in higher-risk areas, strengthening audit quality and delivery.",
+        "Maintained professional client relationships throughout fund audit engagements while balancing operational requirements with client needs.",
+        "Monitored fund-industry developments and leading practices, shared insights, and mentored junior staff on fund audit methodology and procedures.",
       ],
       highlightsZh: [
-        "负责并推进高资本规模共同基金和资产管理组合的完整审计流程。",
-        "复核并分析 NAV 计算，重点核对现金、持仓和复杂市场价值。",
-        "围绕高风险账户设计实质性审计程序，识别并应对潜在财务风险。",
-        "维护高质量客户沟通，在审计严谨性和响应效率之间保持平衡。",
+        "带领并执行多个基金客户的审计现场工作，确保符合财务报告标准和监管要求。",
+        "复核并重新执行共同基金的净资产价值计算和财务报表审计程序，包括现金、持仓和市值的详细调节。",
+        "管理基金审计流程并记录审计发现，尤其关注较高风险领域，以提升审计质量和交付效果。",
+        "在基金审计项目中维护专业客户关系，在运营要求和客户需求之间保持平衡。",
+        "持续关注基金行业动态和领先实践，分享相关洞察，并指导初级员工掌握基金审计方法和程序。",
       ],
     },
     "malone-bailey": {
-      company: "Malone Bailey, LLP",
+      company: "MaloneBailey, LLP",
       companyZh: "美博咨询",
       team: "Audit Practice",
       role: "Audit Associate",
@@ -245,19 +251,21 @@ export default function App() {
       location: "Houston, TX",
       locationZh: "休斯顿，TX",
       highlights: [
-        "Conducted substantive audit testing and interim reviews of balance sheets, revenue cycles, and transactional integrity.",
-        "Executed core field assignments aligned strictly with professional auditing standards, milestones, and firm methodologies.",
-        "Synthesized technical workpapers to resolve accounting discrepancies, presenting analytical updates to directors.",
+        "Performed audit and interim review procedures, evaluating transactions, records, and supporting documentation to assess fair presentation of financial statements.",
+        "Executed audit procedures in accordance with firm methodology, professional standards, engagement timelines, and budgets.",
+        "Collaborated with senior team members to resolve audit issues and provided regular status updates.",
+        "Built and maintained effective client relationships to support successful engagements and client satisfaction.",
       ],
       highlightsZh: [
-        "参与资产负债表、收入循环和交易完整性的实质性测试与期中复核。",
-        "按照审计准则、项目节点和事务所方法论完成核心现场工作。",
-        "整理技术性底稿并分析会计差异，向项目负责人汇报关键发现。",
+        "执行审计和期中复核程序，评估交易、记录及支持性文件，以判断财务报表是否公允列报。",
+        "按照事务所方法论、专业准则、项目时间表和预算要求执行审计程序。",
+        "与高级团队成员协作解决审计问题，并定期更新项目进展。",
+        "建立并维护有效的客户关系，支持项目顺利完成并提升客户满意度。",
       ],
     },
     "jackson-hewitt": {
-      company: "Jackson Hewitt Accounting",
-      companyZh: "Jackson Hewitt Accounting",
+      company: "Liu Inc.",
+      companyZh: "Liu Inc.",
       team: "Liu Inc.",
       role: "Senior Accountant",
       period: "Oct 2018 - June 2021",
@@ -267,14 +275,16 @@ export default function App() {
       location: "Plymouth, MN",
       locationZh: "普利茅斯，MN",
       highlights: [
-        "Managed daily general ledger accounting, periodic closings, complex bank reconciliations, and GAAP statement preparation.",
-        "Conducted deep-dive financial analyses and researched specific tax treatments for early-stage startups and investment entities.",
-        "Designed and implemented process improvements to automate general ledger flows, saving significant close-cycle hours.",
+        "Managed daily accounting operations, account reconciliations, and financial reporting in accordance with U.S. GAAP.",
+        "Led year-end close processes, including balance sheet reconciliations and adjusting journal entries.",
+        "Supervised and trained new staff, delegated assignments, and monitored adherence to established procedures.",
+        "Conducted ad hoc financial analyses, researched tax treatments for startups and investments, and supported COVID-19 relief program applications.",
       ],
       highlightsZh: [
-        "负责日常总账会计、周期性关账、银行调节和 GAAP 财务报表准备。",
-        "开展财务分析，并为初创企业和投资主体研究特定税务处理。",
-        "设计并落地流程改进，自动化部分总账处理，减少关账周期中的重复性工作。",
+        "负责日常会计运营、账户调节和财务报告，并确保符合 U.S. GAAP 要求。",
+        "主导年终关账流程，包括资产负债表调节和调整分录。",
+        "监督并培训新员工，分配工作任务，并跟进既定流程的执行情况。",
+        "开展临时财务分析，研究初创企业和投资相关税务处理，并支持 COVID-19 救助项目申请。",
       ],
     },
   };
@@ -286,7 +296,7 @@ export default function App() {
   const expTeam = isZh ? activeExperience.teamZh : activeExperience.team;
   const expHighlights = isZh ? activeExperience.highlightsZh : activeExperience.highlights;
   const expLocation = isZh ? activeExperience.locationZh : activeExperience.location;
-  const resumeUrl = `${import.meta.env.BASE_URL}qinyan-luo-resume-2026-06-30.pdf`;
+  const resumeUrl = `${import.meta.env.BASE_URL}qinyan-luo-resume-2026-07-23.pdf`;
 
   return (
     <div className="min-h-screen bg-[#F9F6F0] text-[#332D2D] font-sans antialiased selection:bg-[#EAE5DE] selection:text-[#9C5A6A] overflow-x-hidden">
@@ -421,7 +431,7 @@ export default function App() {
 
         <div id="work" className="mb-12">
           <span className="text-[#9C5A6A] text-[11px] font-bold uppercase tracking-[0.2em] mb-4 flex items-center gap-2"><ArrowRight className="w-3.5 h-3.5" /> {text.workEyebrow}</span>
-          <h2 className="font-serif-elegant text-4xl md:text-5xl text-[#332D2D] mb-2">{text.workTitle}</h2>
+          <h2 className="font-serif-elegant text-4xl md:text-5xl text-[#332D2D] mb-2 flex items-center gap-3">{text.workTitle}<BriefcaseBusiness className="w-6 h-6 text-[#9C5A6A]" /></h2>
           <p className="font-serif-elegant italic text-lg text-[#7D7371] mb-10">{text.workSubtitle}</p>
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start bg-white border border-[#EAE5DE] rounded-[32px] p-6 md:p-10 shadow-[0_2px_10px_rgba(0,0,0,0.02)]">
             <div className="lg:col-span-4 flex lg:flex-col overflow-x-auto lg:overflow-visible space-x-3 lg:space-x-0 lg:space-y-2 pb-4 lg:pb-0 scrollbar-none border-b lg:border-b-0 border-[#F5F2EC]">
@@ -461,7 +471,7 @@ export default function App() {
                 <BookOpen className="w-4 h-4" />
               </div>
               <div className="w-full">
-                <h3 className="font-serif-elegant text-2xl text-[#332D2D] mb-2">{text.education}</h3>
+                <h3 className="font-serif-elegant text-2xl text-[#332D2D] mb-2 flex items-center gap-2">{text.education}<BookOpen className="w-4 h-4 text-[#9C5A6A]" /></h3>
                 <p className="text-[12px] text-[#A09596] leading-relaxed mb-5">{text.educationNote}</p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                   <div className="rounded-[22px] border border-[#F5F2EC] bg-[#FDFBFA] p-5">
@@ -486,7 +496,7 @@ export default function App() {
                   <FileText className="w-4 h-4 text-[#9C5A6A]" />
                   <span className="text-[11px] uppercase tracking-[0.18em] font-bold text-[#9C5A6A]">{text.resumeSectionNote}</span>
                 </div>
-                <h3 className="font-serif-elegant text-3xl text-[#332D2D] mb-3">{text.resumeTitle}</h3>
+                <h3 className="font-serif-elegant text-3xl text-[#332D2D] mb-3 flex items-center gap-2">{text.resumeTitle}<FileText className="w-5 h-5 text-[#9C5A6A]" /></h3>
                 <p className="text-[13px] text-[#7D7371] leading-relaxed max-w-xl">{text.resumeSubtitle}</p>
               </div>
               <div className="flex flex-wrap gap-3 shrink-0">
@@ -532,7 +542,7 @@ export default function App() {
         <div id="projects" className="mb-24 mt-12">
           <div className="bg-white border border-[#EAE5DE] rounded-[32px] p-6 md:p-10 shadow-[0_2px_10px_rgba(0,0,0,0.02)]">
             <h3 className="font-serif-elegant text-2xl text-[#332D2D] mb-8 flex items-center justify-between">
-              <div className="flex items-center gap-2"><span className="text-[#9C5A6A] font-sans text-lg">→</span> {text.projectsTitle}</div>
+              <div className="flex items-center gap-2"><span className="text-[#9C5A6A] font-sans text-lg">→</span> {text.projectsTitle}<FlaskConical className="w-5 h-5 text-[#9C5A6A]" /></div>
               <span className="hidden sm:inline-block px-4 py-1.5 rounded-full bg-[#F4EBEF] text-[#9C5A6A] text-[11px] font-bold uppercase tracking-wider">{text.projectsBadge}</span>
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
