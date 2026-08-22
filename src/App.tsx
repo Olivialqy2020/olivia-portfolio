@@ -73,7 +73,7 @@ export default function App() {
       currentTitle: "Currently into",
       currentItems: [
         "Passed the CPA exams and currently waiting for the State Board update.",
-        "Learning the foundations of data through Google’s Coursera course “Foundations: Data, Data, Everywhere” and Anthropic Academy’s Claude 101, with a focus on building practical fluency step by step.",
+        "Completed Claude 101 and LinkedIn’s Foundations of Treasury Management; currently reviewing ASC 820/815 and continuing through Claude’s broader course series.",
         "Deep diving into Corporate FP&A best practices and strategic valuation.",
         "Obsessing over new recipes & cooking technique videos.",
         "Planning to explore hiking routes starting from the New England area.",
@@ -143,7 +143,7 @@ export default function App() {
       currentTitle: "最近在关注",
       currentItems: [
         "已通过 CPA 考试，目前在等待 State Board 的更新。",
-        "正在学习 Google Coursera 的 “Foundations: Data, Data, Everywhere” 和 Anthropic Academy 的 Claude 101，想用更系统的方式补足数据与 AI 工具的实操基础。",
+        "已完成 Claude 101 和 LinkedIn 的 Foundations of Treasury Management；目前在继续复习 ASC 820/815，并持续学习 Claude 名下的一系列课程。",
         "持续了解企业财务规划与分析的工作方式、预算预测逻辑和战略估值场景。",
         "研究新的食谱和烹饪技巧视频。",
         "计划从北美新英格兰地区开始慢慢探索适合周末的徒步路线。",
