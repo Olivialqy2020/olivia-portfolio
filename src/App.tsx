@@ -296,7 +296,7 @@ export default function App() {
   const expTeam = isZh ? activeExperience.teamZh : activeExperience.team;
   const expHighlights = isZh ? activeExperience.highlightsZh : activeExperience.highlights;
   const expLocation = isZh ? activeExperience.locationZh : activeExperience.location;
-  const resumeUrl = `${import.meta.env.BASE_URL}qinyan-luo-resume-2026-07-23.pdf`;
+  const resumeUrl = `${import.meta.env.BASE_URL}qinyan-luo-resume-general.pdf`;
 
   return (
     <div className="min-h-screen bg-[#F9F6F0] text-[#332D2D] font-sans antialiased selection:bg-[#EAE5DE] selection:text-[#9C5A6A] overflow-x-hidden">
