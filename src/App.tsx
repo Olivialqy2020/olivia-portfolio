@@ -61,7 +61,7 @@ export default function App() {
       resumeCta: "Preview resume",
       resumeTitle: "Resume Snapshot",
       resumeSubtitle: "A polished PDF version of my 2026 resume is available here for quick review or download.",
-      resumePreview: "Open PDF",
+      resumePreview: "Open Preview",
       resumeDownload: "Download PDF",
       resumeBullets: ["5+ years across audit, valuation, and financial instruments", "CPA exams passed, with corporate accounting and FP&A interests", "Boston-based, open to hybrid and remote conversations"],
       aboutTitle: "A bit about me",
@@ -131,7 +131,7 @@ export default function App() {
       resumeCta: "预览简历",
       resumeTitle: "简历速览",
       resumeSubtitle: "这里放的是 2026 版 PDF 简历，可以直接在线预览，也可以下载保存。",
-      resumePreview: "打开 PDF",
+      resumePreview: "打开预览",
       resumeDownload: "下载 PDF",
       resumeBullets: ["5 年以上审计、估值和复杂金融工具相关经验", "已通过 CPA 考试，重点关注企业会计、企业财务规划与分析和财务分析方向", "目前在波士顿，欢迎远程或混合办公机会交流"],
       aboutTitle: "关于我",
@@ -296,7 +296,8 @@ export default function App() {
   const expTeam = isZh ? activeExperience.teamZh : activeExperience.team;
   const expHighlights = isZh ? activeExperience.highlightsZh : activeExperience.highlights;
   const expLocation = isZh ? activeExperience.locationZh : activeExperience.location;
-  const resumeUrl = `${import.meta.env.BASE_URL}qinyan-luo-resume-general.pdf`;
+  const resumeUrl = `${import.meta.env.BASE_URL}Olivia-Resume.pdf`;
+  const resumePreviewUrl = `${import.meta.env.BASE_URL}resume-preview/olivia-resume.png`;
 
   return (
     <div className="min-h-screen bg-[#F9F6F0] text-[#332D2D] font-sans antialiased selection:bg-[#EAE5DE] selection:text-[#9C5A6A] overflow-x-hidden">
@@ -480,7 +481,7 @@ export default function App() {
                     <span className="inline-flex mt-2 px-3 py-1 rounded-full bg-[#F9F6F0] text-[#7D7371] text-[11px] font-medium border border-[#EAE5DE]">{isZh ? "2018年5月 · 明尼阿波利斯" : "May 2018 · Minneapolis"}</span>
                   </div>
                   <div className="rounded-[22px] border border-[#F5F2EC] bg-[#FDFBFA] p-5">
-                    <h4 className="text-[14px] font-semibold text-[#332D2D]">{isZh ? "明尼苏达大学" : "University of Minnesota"}</h4>
+                    <h4 className="text-[14px] font-semibold text-[#332D2D]">{isZh ? "明尼苏达大学卡尔森商学院" : "University of Minnesota - Carlson School of Management"}</h4>
                     <p className="text-[13px] text-[#7D7371] mt-1">{isZh ? "会计学和金融学学士学位" : "B.S. Business in Accounting & Finance"}</p>
                     <span className="inline-flex mt-2 px-3 py-1 rounded-full bg-[#F9F6F0] text-[#7D7371] text-[11px] font-medium border border-[#EAE5DE]">{isZh ? "2016年12月 · 明尼阿波利斯" : "Dec 2016 · Minneapolis"}</span>
                   </div>
@@ -501,7 +502,7 @@ export default function App() {
               </div>
               <div className="flex flex-wrap gap-3 shrink-0">
                 <a
-                  href={resumeUrl}
+                  href={resumePreviewUrl}
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-[#9C5A6A] text-white text-[12px] font-semibold hover:bg-[#8A4E5C] transition-colors shadow-sm"
@@ -510,7 +511,7 @@ export default function App() {
                 </a>
                 <a
                   href={resumeUrl}
-                  download
+                  download="Olivia Resume.pdf"
                   className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-[#F9F6F0] text-[#7D7371] text-[12px] font-semibold border border-[#EAE5DE] hover:text-[#9C5A6A] hover:border-[#D9CCC4] transition-colors"
                 >
                   <Download className="w-4 h-4" /> {text.resumeDownload}
@@ -528,13 +529,19 @@ export default function App() {
                   ))}
                 </ul>
               </div>
-              <div className="lg:col-span-8 overflow-hidden rounded-[22px] border border-[#EAE5DE] bg-[#FDFBFA] shadow-inner">
-                <iframe
-                  src={`${resumeUrl}#toolbar=0&navpanes=0`}
-                  title="Qinyan Luo Resume PDF preview"
-                  className="h-[520px] w-full bg-white"
+              <a
+                href={resumePreviewUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="lg:col-span-8 block overflow-hidden rounded-[22px] border border-[#EAE5DE] bg-[#FDFBFA] shadow-inner transition-transform hover:-translate-y-0.5"
+                aria-label="Open Qinyan Luo resume PDF"
+              >
+                <img
+                  src={resumePreviewUrl}
+                  alt="Qinyan Luo resume preview"
+                  className="h-[520px] w-full object-contain bg-white"
                 />
-              </div>
+              </a>
             </div>
           </section>
         </div>
