@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { lazy, Suspense, useState } from "react";
 import {
   Mail,
   MapPin,
@@ -18,6 +18,8 @@ import {
   FlaskConical,
   BriefcaseBusiness,
 } from "lucide-react";
+
+const BostonMap = lazy(() => import("./BostonMap"));
 
 export default function App() {
   const [activeExp, setActiveExp] = useState("ey-t3");
@@ -596,29 +598,21 @@ export default function App() {
                 <p className="text-[13px] text-[#7D7371] leading-relaxed">{text.availabilityBody}</p>
               </div>
               <div className="bg-white border border-[#EAE5DE] rounded-[32px] p-8 shadow-[0_2px_10px_rgba(0,0,0,0.02)] overflow-hidden relative">
-                <div className="absolute inset-x-8 top-8 h-28 rounded-[24px] bg-[#F7EFEC] border border-[#E3D9D2] overflow-hidden">
-                  <div className="absolute -left-8 top-12 h-8 w-72 rotate-[-9deg] rounded-full bg-[#C9DDDC]" />
-                  <div className="absolute right-[-20px] top-0 h-24 w-24 rounded-full bg-[#D8E7E4]" />
-                  <div className="absolute left-5 top-4 h-20 w-24 rounded-xl bg-[#DDEAE6]" />
-                  <div className="absolute left-36 top-3 h-16 w-24 rounded-xl bg-[#DDEAE6]" />
-                  <div className="absolute right-8 bottom-4 h-14 w-24 rounded-xl bg-[#DDEAE6]" />
-                  <div className="absolute left-0 top-11 h-2 w-full rotate-[-10deg] bg-[#FFF9F3]" />
-                  <div className="absolute left-16 top-0 h-32 w-2 rotate-[10deg] bg-[#FFF9F3]" />
-                  <div className="absolute left-32 top-0 h-32 w-2 rotate-[-3deg] bg-[#FFF9F3]" />
-                  <div className="absolute left-0 top-20 h-2 w-full rotate-[5deg] bg-[#FFF9F3]" />
-                  <div className="absolute right-20 top-0 h-32 w-2 rotate-[15deg] bg-[#FFF9F3]" />
-                  <span className="absolute left-12 top-8 h-3 w-3 rounded-full bg-[#9C5A6A] shadow-[0_0_0_6px_rgba(156,90,106,0.16)]" />
-                  <span className="absolute left-8 top-8 text-[12px] text-[#8B6D71]">⌂</span>
-                  <span className="absolute left-24 top-[72px] text-[11px] text-[#9C5A6A]">☕</span>
-                  <span className="absolute right-24 top-8 text-[12px] text-[#8B6D71]">▣</span>
-                  <span className="absolute right-14 bottom-8 text-[11px] text-[#9C5A6A]">✦</span>
-                  <span className="absolute left-40 bottom-7 text-[10px] text-[#8B6D71]">♡</span>
-                  <span className="absolute left-5 bottom-4 text-[10px] font-semibold uppercase tracking-wider text-[#7F7272]">Cambridge</span>
-                  <span className="absolute left-32 top-[52px] text-[10px] font-semibold uppercase tracking-wider text-[#7F7272]">Charles</span>
-                  <span className="absolute right-8 top-5 text-[10px] font-semibold uppercase tracking-wider text-[#7F7272]">Seaport</span>
-                  <span className="absolute right-10 bottom-4 text-[10px] font-semibold uppercase tracking-wider text-[#7F7272]">Back Bay</span>
+                <div className="relative h-[230px] sm:h-[250px] rounded-2xl bg-[#F3EEEB] border border-[#E3D9D2] overflow-hidden mb-6">
+                  <Suspense fallback={null}>
+                    <BostonMap label={isZh ? "波士顿地区地图" : "Boston area map"} />
+                  </Suspense>
+                  <a
+                    href="https://www.openstreetmap.org/#map=13/42.360/-71.065"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="absolute z-10 top-3 left-3 inline-flex items-center gap-2 bg-[#FFFDFC]/95 border border-[#E3D9D2] rounded-lg px-3 py-2 text-[12px] text-[#5A504E] shadow-sm hover:text-[#9C5A6A] focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#9C5A6A]"
+                    aria-label={isZh ? "打开波士顿地区地图（新窗口）" : "Open Boston area map in a new tab"}
+                  >
+                    <MapPin className="w-3.5 h-3.5 text-[#9C5A6A]" /><span>Boston area</span><ArrowRight className="w-3.5 h-3.5 text-[#9C5A6A]" />
+                  </a>
                 </div>
-                <div className="relative pt-36">
+                <div className="relative">
                   <h3 className="font-serif-elegant text-xl text-[#332D2D] mb-3 flex items-center gap-2"><MapPin className="w-4 h-4 text-[#9C5A6A]" /> {text.bostonTitle}</h3>
                   <p className="text-[13px] text-[#7D7371] leading-relaxed">{text.bostonBody}</p>
                 </div>

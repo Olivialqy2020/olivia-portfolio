@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.boston-map .maplibregl-ctrl-attrib {
+  font-size: 9px;
+  line-height: 16px;
+  color: #7D7371;
+  background: rgba(255, 253, 252, 0.92);
+}
+
+.boston-map .maplibregl-ctrl-attrib a {
+  color: inherit;
+}
