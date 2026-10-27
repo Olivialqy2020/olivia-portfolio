@@ -6,8 +6,6 @@ import {
   CheckCircle2,
   ArrowRight,
   Code,
-  Database,
-  Heart,
   BookOpen,
   Globe2,
   Menu,
@@ -17,6 +15,7 @@ import {
   Music,
   FlaskConical,
   BriefcaseBusiness,
+  BadgeCheck,
 } from "lucide-react";
 
 const BostonMap = lazy(() => import("./BostonMap"));
@@ -54,8 +53,8 @@ export default function App() {
       heroTitle2: "Data Explorer.",
       heroSubtitle: "→ finding balance between audit rigor & analytical foresight",
       heroBody:
-        "I build financial frameworks that drive strategic business decisions. Currently transitioning 5+ years of complex audit and valuation experience into corporate finance, while building practical data and AI literacy through focused coursework.",
-      heroTags: ["Corporate Finance", "CPA Exams Passed", "I/ENFP-T", "Data Enthusiast", "Espresso Lover ☕", "Python Learner ✦"],
+        "I'm a Massachusetts-licensed CPA with 5+ years of accounting and audit experience, including nearly four years at EY across asset management and financial instruments. I'm bringing that experience into corporate accounting and finance, while continuing to build practical data and AI skills.",
+      heroTags: ["Corporate Finance", "Licensed CPA", "I/ENFP-T", "Data Enthusiast", "Espresso Lover ☕", "Python Learner ✦"],
       portraitBadge: "Boston light ✦",
       portraitCaption: "finance + data explorer",
       portraitCity: "Boston",
@@ -65,19 +64,20 @@ export default function App() {
       resumeSubtitle: "A polished PDF version of my 2026 resume is available here for quick review or download.",
       resumePreview: "Open Preview",
       resumeDownload: "Download PDF",
-      resumeBullets: ["5+ years across audit, valuation, and financial instruments", "CPA exams passed, with corporate accounting and FP&A interests", "Boston-based, open to hybrid and remote conversations"],
+      resumeBullets: ["Massachusetts-licensed CPA with 5+ years in accounting and audit", "Financial reporting, reconciliations, internal controls, and investment valuation", "Boston-based, open to hybrid and remote conversations"],
       aboutTitle: "A bit about me",
       about1:
-        "I'm a classically trained auditor — highly structured when the work calls for it, but curious and people-oriented in how I learn and collaborate. With 5+ years navigating complex financial instruments (ASC 815/820), I thrive on untangling messy data into clear narratives.",
+        "I'm a Massachusetts-licensed CPA with a foundation in both hands-on accounting and audit. Across 5+ years, I've worked on reconciliations, journal entries, close support, financial reporting review, and internal controls, with nearly four years at EY focused on asset management and financial instruments (ASC 815/820). I enjoy bringing structure to complex information and working with people to resolve the details.",
       about2:
-        "Outside work, I'm learning Python and data tools step by step, watching cooking videos at midnight, or hunting for the perfect micro-batch espresso in Boston. I'm also a classical music enthusiast; I played in school orchestras through high school and college, and I have a soft spot for Baroque, classical repertoire, and many other forms of music.",
+        "Outside work, I'm exploring AI and automation tools through small projects inspired by my gardening hobby and experimenting with vibe coding online. I'm also a classical music enthusiast; I played in school orchestras through high school and college, and I have a soft spot for Baroque, classical repertoire, and many other forms of music.",
       aboutTags: ["I/ENFP-T ✦", "Bilingual (ZH/EN)", "Data Modeling 📊", "Classical Music ♫", "Cooking 🍳"],
       currentTitle: "Currently into",
+      licenseTitle: "Licensed CPA · Massachusetts",
+      licenseCaption: "A milestone in my accounting journey · October 2026",
+      licenseAlt: "Qinyan Luo's framed Massachusetts CPA certificate",
       currentItems: [
-        "Passed the CPA exams and currently waiting for the State Board update.",
+        "Licensed as a CPA in Massachusetts, with a continued focus on accounting and financial reporting.",
         "Completed Claude 101 and LinkedIn’s Foundations of Treasury Management; currently reviewing ASC 820/815 and continuing through Claude’s broader course series.",
-        "Deep diving into Corporate FP&A best practices and strategic valuation.",
-        "Obsessing over new recipes & cooking technique videos.",
         "Planning to explore hiking routes starting from the New England area.",
         "Listening broadly to the Boston Symphony Orchestra and concerts from ensembles around the area.",
       ],
@@ -124,8 +124,8 @@ export default function App() {
       heroTitle2: "数据探索者",
       heroSubtitle: "→ 在审计的严谨性和数据分析的前瞻性之间寻找平衡",
       heroBody:
-        "我擅长把复杂的财务信息梳理成能支持业务决策的分析框架。现在希望把 5 年多的复杂审计与估值经验延展到企业会计、企业财务规划与分析和财务分析方向，同时继续补足数据与 AI 工具的实践能力。",
-      heroTags: ["企业财务", "CPA 考试已通过", "I/ENFP-T", "数据爱好者", "咖啡爱好者 ☕", "Python 学习中 ✦"],
+        "我持有马萨诸塞州注册会计师（CPA）执照，有 5 年以上会计与审计经验，其中近四年在安永从事资产管理和金融工具相关审计。现在希望将这些经验运用到企业会计与财务工作中，同时继续提升数据分析与 AI 工具的实践能力。",
+      heroTags: ["企业财务", "美国 CPA 持证", "I/ENFP-T", "数据爱好者", "咖啡爱好者 ☕", "Python 学习中 ✦"],
       portraitBadge: "",
       portraitCaption: "财务 + 数据探索者",
       portraitCity: "波士顿",
@@ -135,19 +135,20 @@ export default function App() {
       resumeSubtitle: "这里放的是 2026 版 PDF 简历，可以直接在线预览，也可以下载保存。",
       resumePreview: "打开预览",
       resumeDownload: "下载 PDF",
-      resumeBullets: ["5 年以上审计、估值和复杂金融工具相关经验", "已通过 CPA 考试，重点关注企业会计、企业财务规划与分析和财务分析方向", "目前在波士顿，欢迎远程或混合办公机会交流"],
+      resumeBullets: ["马萨诸塞州注册会计师，拥有 5 年以上会计与审计经验", "熟悉财务报告、账户核对、内部控制及投资估值", "目前在波士顿，欢迎远程或混合办公机会交流"],
       aboutTitle: "关于我",
       about1:
-        "我接受过扎实的审计训练，做事注重结构和细节；同时也很享受和人协作、一起把问题想清楚的过程。过去 5 年多，我主要接触复杂金融工具（ASC 815/820）、估值和投资组合相关审计，喜欢把杂乱的信息整理成清楚、有判断依据的财务叙事。",
+        "我持有马萨诸塞州注册会计师（CPA）执照，既有日常账务处理经验，也接受过扎实的审计训练。过去 5 年多，我的工作涵盖账户核对、会计分录、结账支持、财务报告复核和内部控制；其中近四年在安永，主要从事资产管理及金融工具相关审计（ASC 815/820）。我做事注重结构和细节，也很享受与人协作，把复杂问题逐一理清的过程。",
       about2:
-        "工作之外，我在一步步学习 Python 和数据工具；也会半夜看做饭视频，或者在波士顿寻找好喝的 espresso。我也是古典音乐发烧友，高中和大学都在学校交响乐团，尤其喜欢巴洛克音乐、古典音乐，也愿意探索各种音乐形式。",
+        "工作之外，我正在探索 AI 和自动化工具，围绕自己的园艺爱好做一些小项目，也会尝试用 vibe coding 实现一些线上小创意。我也是古典音乐发烧友，高中和大学都在学校交响乐团，尤其喜欢巴洛克音乐、古典音乐，也愿意探索各种音乐形式。",
       aboutTags: ["I/ENFP-T ✦", "中英双语", "数据建模 📊", "古典音乐 ♫", "做饭 🍳"],
       currentTitle: "最近在关注",
+      licenseTitle: "马萨诸塞州注册会计师",
+      licenseCaption: "会计职业路上的一个里程碑 · 2026年10月",
+      licenseAlt: "Qinyan Luo 的马萨诸塞州注册会计师执照照片",
       currentItems: [
-        "已通过 CPA 考试，目前在等待 State Board 的更新。",
+        "已取得马萨诸塞州注册会计师（CPA）执照，持续深耕会计与财务报告领域。",
         "已完成 Claude 101 和 LinkedIn 的 Foundations of Treasury Management；目前在继续复习 ASC 820/815，并持续学习 Claude 名下的一系列课程。",
-        "持续了解企业财务规划与分析的工作方式、预算预测逻辑和战略估值场景。",
-        "研究新的食谱和烹饪技巧视频。",
         "计划从北美新英格兰地区开始慢慢探索适合周末的徒步路线。",
         "目前在广泛听波士顿交响乐团，以及周边各种乐团的演出。",
       ],
@@ -201,44 +202,44 @@ export default function App() {
       location: "Boston, MA",
       locationZh: "波士顿，MA",
       highlights: [
-        "Specialized in audits of financial instruments, including pension-related investments and derivatives, ensuring compliance with ASC 815, ASC 820, and related technical guidance.",
-        "Tested internal controls and risk-management frameworks, identified control gaps, and aligned audit procedures with regulatory and PCAOB standards.",
-        "Provided assurance and technical insights to insurance, commercial banking, and technology clients, focusing on complex valuations and disclosures.",
-        "Mentored EY Global Delivery Services and Service Delivery Center colleagues across multiple locations, reviewed workpapers, and upheld quality standards.",
-        "Led budget tracking and hour forecasting for the FI audit team, partnering with managers and senior managers on staffing and workload planning.",
+        "Audited complex financial instruments and investment accounts, including derivatives and trading, available-for-sale (AFS), and held-to-maturity (HTM) debt securities; evaluated documentation, presentation, and disclosures under Derivatives and Hedging (ASC 815) and Fair Value Measurement (ASC 820).",
+        "Assessed valuation risk across investment portfolios, considering security characteristics, holding periods, and underlying assets to identify higher-risk holdings requiring additional audit procedures.",
+        "Reviewed valuation specialists' methodologies and key pricing inputs to assess whether independent fair value estimates supported client-reported values.",
+        "Tested SOX and other internal controls and risk-management frameworks, identified control gaps, and aligned audit procedures with regulatory and PCAOB standards.",
+        "Led day-to-day audit execution across clients and EY delivery teams in multiple locations, reviewed workpapers, resolved audit issues, and maintained quality standards.",
+        "Managed Financial Instruments team audit budgets, hour forecasts, staffing, and peak-season workload planning with managers and senior managers.",
       ],
       highlightsZh: [
-        "专注于金融工具审计，包括养老金相关投资和衍生品，确保符合 ASC 815、ASC 820 及相关技术指引。",
-        "测试内部控制和风险管理框架，识别控制缺口，并使审计程序与监管要求和 PCAOB 标准保持一致。",
-        "为保险、商业银行和科技行业客户提供鉴证和技术洞察，重点关注复杂估值和披露。",
-        "指导多个地区的 EY Global Delivery Services 和 Service Delivery Center 同事，复核底稿并把控质量标准。",
-        "负责金融衍生品组的预算跟踪和工时预测，并与经理及高级经理协作规划人员配置和工作量。",
+        "审计复杂金融工具及投资账户，涵盖衍生品，以及交易性、可供出售和持有至到期债务证券；依据《衍生工具与套期保值》（ASC 815）及《公允价值计量》（ASC 820）评估支持文件、报表列报和附注披露。",
+        "结合证券特征、持有期限和底层资产构成，评估投资组合的估值风险，识别需要追加审计程序的高风险持仓。",
+        "复核估值专家采用的方法和关键定价参数，判断独立估算的公允价值能否支持客户报告的估值。",
+        "测试《萨班斯—奥克斯利法案》（SOX）相关内控、其他内部控制及风险管理机制，识别控制缺口，并确保审计程序符合监管要求和美国公众公司会计监督委员会（PCAOB）标准。",
+        "协调客户及安永各地交付团队，推进日常审计工作、复核底稿并解决审计问题，把控项目质量。",
+        "与经理及高级经理共同管理金融衍生品组的审计预算、工时预测、人员配置和忙季工作安排。",
       ],
     },
     "ey-wam": {
       company: "Ernst & Young",
       companyZh: "安永",
       team: "FSO - Wealth & Asset Management",
-      role: "Audit Senior",
+      role: "Audit Senior (promoted from Audit Staff)",
       period: "May 2022 - Oct 2024",
-      teamZh: "FSO - 财富与资产管理",
-      roleZh: "高级审计师",
+      teamZh: "金融服务业务部 - 财富与资产管理",
+      roleZh: "高级审计师（由审计助理晋升）",
       periodZh: "2022年5月 - 2024年10月",
       location: "Boston, MA",
       locationZh: "波士顿，MA",
       highlights: [
-        "Led and executed audit fieldwork for multiple fund clients, ensuring compliance with financial reporting standards and regulatory requirements.",
-        "Reviewed and reperformed net asset value calculations and financial statement audit procedures for mutual funds, including reconciliations of cash, positions, and market values.",
-        "Managed fund audit workflows and documented findings, particularly in higher-risk areas, strengthening audit quality and delivery.",
-        "Maintained professional client relationships throughout fund audit engagements while balancing operational requirements with client needs.",
-        "Monitored fund-industry developments and leading practices, shared insights, and mentored junior staff on fund audit methodology and procedures.",
+        "Progressed from Audit Staff supporting a 100+ fund program to Audit Senior in-charge for approximately 20 mutual funds within a 50+ fund program; coordinated concurrent workstreams, reviewed staff work, and resolved open items across reporting deadlines.",
+        "Reviewed third-party administrator-prepared NAV packages and financial statement schedules; recalculated net asset value and reconciled cash, investment positions, and market values, investigating discrepancies and open items.",
+        "Tested custody, pricing, and related financial statement disclosures for investment holdings, including selected settled and unsettled term-loan positions.",
+        "Performed audit procedures over mutual fund subscriptions, redemptions, distributions, and SEC reporting.",
       ],
       highlightsZh: [
-        "带领并执行多个基金客户的审计现场工作，确保符合财务报告标准和监管要求。",
-        "复核并重新执行共同基金的净资产价值计算和财务报表审计程序，包括现金、持仓和市值的详细调节。",
-        "管理基金审计流程并记录审计发现，尤其关注较高风险领域，以提升审计质量和交付效果。",
-        "在基金审计项目中维护专业客户关系，在运营要求和客户需求之间保持平衡。",
-        "持续关注基金行业动态和领先实践，分享相关洞察，并指导初级员工掌握基金审计方法和程序。",
+        "从参与百余只基金项目的审计助理晋升为高级审计师，在涵盖 50 余只基金的项目中具体负责约 20 只共同基金；统筹并行任务、复核团队工作，并在各报告截止日前解决待办事项。",
+        "复核第三方基金行政管理机构编制的净资产值报表及财务报表明细，重新计算基金净资产值，核对现金、投资持仓和市值，并跟进差异及未结事项。",
+        "对投资持仓执行托管、定价和相关报表披露测试，涵盖部分已交割及未交割的定期贷款持仓。",
+        "对共同基金的申购、赎回、收益分配及美国证券交易委员会（SEC）申报执行审计程序。",
       ],
     },
     "malone-bailey": {
@@ -254,52 +255,44 @@ export default function App() {
       locationZh: "休斯顿，TX",
       highlights: [
         "Performed audit and interim review procedures, evaluating transactions, records, and supporting documentation to assess fair presentation of financial statements.",
-        "Executed audit procedures in accordance with firm methodology, professional standards, engagement timelines, and budgets.",
-        "Collaborated with senior team members to resolve audit issues and provided regular status updates.",
-        "Built and maintained effective client relationships to support successful engagements and client satisfaction.",
+        "Executed audit procedures within professional standards, timelines, and budgets; worked with senior team members to resolve issues and provide client status updates.",
       ],
       highlightsZh: [
         "执行审计和期中复核程序，评估交易、记录及支持性文件，以判断财务报表是否公允列报。",
-        "按照事务所方法论、专业准则、项目时间表和预算要求执行审计程序。",
-        "与高级团队成员协作解决审计问题，并定期更新项目进展。",
-        "建立并维护有效的客户关系，支持项目顺利完成并提升客户满意度。",
+        "在专业准则、项目时间表和预算要求内完成审计程序，与资深同事共同解决问题，并向客户更新进展。",
       ],
     },
     "jackson-hewitt": {
-      company: "Liu Inc.",
-      companyZh: "Liu Inc.",
-      team: "Liu Inc.",
+      company: "Liu Inc. CPA",
+      companyZh: "Liu Inc. CPA",
+      team: "Liu Inc. CPA",
       role: "Senior Accountant",
       period: "Oct 2018 - June 2021",
-      teamZh: "Liu Inc.",
+      teamZh: "Liu Inc. CPA",
       roleZh: "高级会计师",
       periodZh: "2018年10月 - 2021年6月",
       location: "Plymouth, MN",
       locationZh: "普利茅斯，MN",
       highlights: [
-        "Managed daily accounting operations, account reconciliations, and financial reporting in accordance with U.S. GAAP.",
-        "Led year-end close processes, including balance sheet reconciliations and adjusting journal entries.",
-        "Supervised and trained new staff, delegated assignments, and monitored adherence to established procedures.",
-        "Conducted ad hoc financial analyses, researched tax treatments for startups and investments, and supported COVID-19 relief program applications.",
+        "Managed day-to-day accounting for one company using QuickBooks Online, including accounts payable and receivable, bank reconciliations, adjusting journal entries, and month-end and year-end close support.",
+        "Prepared routine financial reports, researched accounting and tax matters for startups and investments, and supervised and trained junior staff on client accounting and reconciliation procedures.",
       ],
       highlightsZh: [
-        "负责日常会计运营、账户调节和财务报告，并确保符合 U.S. GAAP 要求。",
-        "主导年终关账流程，包括资产负债表调节和调整分录。",
-        "监督并培训新员工，分配工作任务，并跟进既定流程的执行情况。",
-        "开展临时财务分析，研究初创企业和投资相关税务处理，并支持 COVID-19 救助项目申请。",
+        "使用 QuickBooks Online 负责一家公司的日常账务，涵盖应付与应收账款、银行对账、调整分录，以及月末和年末结账支持。",
+        "编制日常财务报告，研究初创企业及投资相关的会计与税务问题，并指导、培训初级员工处理客户账务和账户核对工作。",
       ],
     },
   };
 
-  const currentIcons = [BookOpen, Code, Database, Heart, Globe2, Music];
+  const currentIcons = [BookOpen, Code, Globe2, Music];
   const activeExperience = experienceData[activeExp as keyof typeof experienceData];
   const expCompany = isZh ? activeExperience.companyZh : activeExperience.company;
   const expRole = isZh ? activeExperience.roleZh : activeExperience.role;
   const expTeam = isZh ? activeExperience.teamZh : activeExperience.team;
   const expHighlights = isZh ? activeExperience.highlightsZh : activeExperience.highlights;
   const expLocation = isZh ? activeExperience.locationZh : activeExperience.location;
-  const resumeUrl = `${import.meta.env.BASE_URL}Olivia-Resume.pdf`;
-  const resumePreviewUrl = `${import.meta.env.BASE_URL}resume-preview/olivia-resume.png`;
+  const resumeUrl = `${import.meta.env.BASE_URL}Olivia-Resume.pdf?v=20261022`;
+  const resumePreviewUrl = `${import.meta.env.BASE_URL}resume-preview/olivia-resume.png?v=20261022`;
 
   return (
     <div className="min-h-screen bg-[#F9F6F0] text-[#332D2D] font-sans antialiased selection:bg-[#EAE5DE] selection:text-[#9C5A6A] overflow-x-hidden">
@@ -404,7 +397,7 @@ export default function App() {
           </div>
         </div>
 
-        <div id="about" className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-24">
+        <div id="about" className="grid grid-cols-1 md:grid-cols-2 items-start gap-6 mb-24">
           <div className="bg-white border border-[#EAE5DE] rounded-[32px] p-8 md:p-10 shadow-[0_2px_10px_rgba(0,0,0,0.02)]">
             <h3 className="font-serif-elegant text-2xl text-[#332D2D] mb-6 flex items-center gap-2"><span className="text-[#9C5A6A] font-sans text-lg">↳</span> {text.aboutTitle}</h3>
             <p className="text-[14px] text-[#5A504E] leading-[1.8] mb-6">{text.about1}</p>
@@ -429,6 +422,23 @@ export default function App() {
                 );
               })}
             </ul>
+            <figure className="mt-7 border-t border-[#EAE5DE] pt-6">
+              <img
+                src={`${import.meta.env.BASE_URL}cpa-certificate.jpg`}
+                alt={text.licenseAlt}
+                width={1200}
+                height={1033}
+                loading="lazy"
+                className="block w-full max-w-[360px] mx-auto h-auto rounded-lg"
+              />
+              <figcaption className="mt-4 flex items-start gap-2.5">
+                <BadgeCheck className="w-5 h-5 text-[#9C5A6A] shrink-0 mt-0.5" />
+                <div>
+                  <p className="text-[13px] font-medium text-[#5A504E]">{text.licenseTitle}</p>
+                  <p className="mt-1 text-[11px] leading-relaxed text-[#A09596]">{text.licenseCaption}</p>
+                </div>
+              </figcaption>
+            </figure>
           </div>
         </div>
 
