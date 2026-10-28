@@ -397,7 +397,7 @@ export default function App() {
           </div>
         </div>
 
-        <div id="about" className="grid grid-cols-1 md:grid-cols-2 items-start gap-6 mb-24">
+        <div id="about" className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-24">
           <div className="bg-white border border-[#EAE5DE] rounded-[32px] p-8 md:p-10 shadow-[0_2px_10px_rgba(0,0,0,0.02)]">
             <h3 className="font-serif-elegant text-2xl text-[#332D2D] mb-6 flex items-center gap-2"><span className="text-[#9C5A6A] font-sans text-lg">↳</span> {text.aboutTitle}</h3>
             <p className="text-[14px] text-[#5A504E] leading-[1.8] mb-6">{text.about1}</p>
@@ -409,9 +409,24 @@ export default function App() {
             </div>
           </div>
 
-          <div className="bg-white border border-[#EAE5DE] rounded-[32px] p-8 md:p-10 shadow-[0_2px_10px_rgba(0,0,0,0.02)]">
-            <h3 className="font-serif-elegant text-2xl text-[#332D2D] mb-8 flex items-center gap-2"><span className="text-[#9C5A6A] font-sans text-lg">→</span> {text.currentTitle}</h3>
-            <ul className="space-y-6">
+          <div className="bg-white border border-[#EAE5DE] rounded-[32px] p-8 md:p-10 shadow-[0_2px_10px_rgba(0,0,0,0.02)] flex flex-col">
+            <h3 className="font-serif-elegant text-2xl text-[#332D2D] mb-6 flex items-center gap-2"><BadgeCheck className="w-5 h-5 text-[#9C5A6A] shrink-0" /> {text.licenseTitle}</h3>
+            <figure className="flex flex-1 flex-col justify-center">
+              <img
+                src={`${import.meta.env.BASE_URL}cpa-certificate.jpg`}
+                alt={text.licenseAlt}
+                width={1200}
+                height={1033}
+                loading="lazy"
+                className="block w-full max-w-[400px] mx-auto h-auto rounded-lg"
+              />
+              <figcaption className="mt-4 text-center text-[12px] leading-relaxed text-[#A09596]">{text.licenseCaption}</figcaption>
+            </figure>
+          </div>
+
+          <div className="md:col-span-2 bg-white border border-[#EAE5DE] rounded-[32px] p-8 md:p-10 shadow-[0_2px_10px_rgba(0,0,0,0.02)]">
+            <h3 className="font-serif-elegant text-2xl text-[#332D2D] mb-6 flex items-center gap-2"><span className="text-[#9C5A6A] font-sans text-lg">→</span> {text.currentTitle}</h3>
+            <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-6">
               {text.currentItems.map((item, i) => {
                 const Icon = currentIcons[i];
                 return (
@@ -422,23 +437,6 @@ export default function App() {
                 );
               })}
             </ul>
-            <figure className="mt-7 border-t border-[#EAE5DE] pt-6">
-              <img
-                src={`${import.meta.env.BASE_URL}cpa-certificate.jpg`}
-                alt={text.licenseAlt}
-                width={1200}
-                height={1033}
-                loading="lazy"
-                className="block w-full max-w-[360px] mx-auto h-auto rounded-lg"
-              />
-              <figcaption className="mt-4 flex items-start gap-2.5">
-                <BadgeCheck className="w-5 h-5 text-[#9C5A6A] shrink-0 mt-0.5" />
-                <div>
-                  <p className="text-[13px] font-medium text-[#5A504E]">{text.licenseTitle}</p>
-                  <p className="mt-1 text-[11px] leading-relaxed text-[#A09596]">{text.licenseCaption}</p>
-                </div>
-              </figcaption>
-            </figure>
           </div>
         </div>
 
